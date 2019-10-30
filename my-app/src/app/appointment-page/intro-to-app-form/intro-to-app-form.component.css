@@ -5,11 +5,13 @@
     background-size: cover;
     height: 100%;
     margin: 2%;
-    opacity: 0.6;
 }
 
 .fa-briefcase-medical {
     color: red;
-    font-size: 3rem;
-    float: center;
+    font-size: 5rem;
+    padding: 12rem 10rem 0rem;
+}
+.center {
+    text-align: center;
 }

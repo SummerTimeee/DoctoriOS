@@ -12,6 +12,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
 import { NameOfPatientComponent } from './appointment-page/name-of-patient/name-of-patient.component';
+import { HomeButtonColorComponent } from './appointment-page/home-button-color/home-button-color.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NameOfPatientComponent } from './appointment-page/name-of-patient/name-
     ToolbarComponent,
     AppointmentPageComponent,
     IntroToAppFormComponent,
-    NameOfPatientComponent
+    NameOfPatientComponent,
+    HomeButtonColorComponent
   ],
   imports: [
     BrowserModule,

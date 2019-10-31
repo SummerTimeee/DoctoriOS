@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
+import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 
 
 const routes: Routes =
   [
     {
       path: '',
-      component: IntroToAppFormComponent
+      component: AppointmentPageComponent
     }
   ];
 

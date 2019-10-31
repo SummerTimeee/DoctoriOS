@@ -10,13 +10,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatMenuModule } from '@angular/material';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
+import { NameOfPatientComponent } from './appointment-page/name-of-patient/name-of-patient.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     AppointmentPageComponent,
-    IntroToAppFormComponent
+    IntroToAppFormComponent,
+    NameOfPatientComponent
   ],
   imports: [
     BrowserModule,

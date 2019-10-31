@@ -9,9 +9,14 @@
 
 .fa-briefcase-medical {
     color: red;
-    font-size: 5rem;
-    padding: 12rem 10rem 0rem;
+    font-size: 6rem;
+    padding: 12rem 0rem 0rem;
 }
 .center {
     text-align: center;
+}
+button {
+    background-color: rgb(219, 159, 7);
+    width: 100%;
+    top: 13rem;
 }

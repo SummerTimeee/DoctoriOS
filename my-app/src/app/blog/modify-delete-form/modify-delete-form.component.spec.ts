@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { QuickLinksComponent } from './quick-links.component';
+import { ModifyDeleteFormComponent } from './modify-delete-form.component';
 
-describe('QuickLinksComponent', () => {
-  let component: QuickLinksComponent;
-  let fixture: ComponentFixture<QuickLinksComponent>;
+describe('ModifyDeleteFormComponent', () => {
+  let component: ModifyDeleteFormComponent;
+  let fixture: ComponentFixture<ModifyDeleteFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ QuickLinksComponent ]
+      declarations: [ ModifyDeleteFormComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(QuickLinksComponent);
+    fixture = TestBed.createComponent(ModifyDeleteFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

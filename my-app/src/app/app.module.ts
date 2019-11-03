@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatMenuModule, MatFormFieldModule } from '@angular/material';
 import { MatRadioModule } from '@angular/material/radio';
@@ -22,7 +21,6 @@ import { PromoComponent } from './home/promo/promo.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent,
     HomeComponent,
     CountdownTimerComponent,
     CellPhoneImageComponent,

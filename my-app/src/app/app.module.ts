@@ -17,6 +17,7 @@ import { CountdownTimerComponent } from './home/countdown-timer/countdown-timer.
 import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-image.component';
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { PromoComponent } from './home/promo/promo.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PromoComponent } from './home/promo/promo.component';
     IntroToAppFormComponent,
     NameOfPatientComponent,
     HomeButtonColorComponent,
-    FullNameComponent
+    FullNameComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

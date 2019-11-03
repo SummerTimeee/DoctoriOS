@@ -25,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     AboutUsComponent,
     ModifyDeleteFormComponent,
     SocialMediaLinksComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

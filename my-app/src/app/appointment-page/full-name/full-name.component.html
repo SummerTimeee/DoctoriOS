@@ -1,6 +1,14 @@
-<div class="example-container">
-    <mat-form-field>
-        <input matInput placeholder="Enter your email..." [formControl]="email" required>
-        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-    </mat-form-field>
+<div class="flyer">
+    <div class="white-page">
+        <h1>Full Name *</h1>
+        <mat-form-field>
+            <input matInput placeholder="Please enter full name" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+        <h1>Phone Number *</h1>
+        <mat-form-field>
+                <input matInput placeholder="Please enter phone number" [formControl]="email" required>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+    </div>
 </div>

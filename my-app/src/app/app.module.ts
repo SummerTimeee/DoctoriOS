@@ -16,6 +16,7 @@ import { CarouselComponent } from './blog/carousel/carousel.component';
 import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { FormsModule } from '@angular/forms';
+import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     BlogComponent,
     CarouselComponent,
     AboutUsComponent,
-    ModifyDeleteFormComponent
+    ModifyDeleteFormComponent,
+    SocialMediaLinksComponent
   ],
   imports: [
     BrowserModule,

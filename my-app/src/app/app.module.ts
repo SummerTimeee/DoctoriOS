@@ -4,7 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatMenuModule, MatFormFieldModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatMenuModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { MatRadioModule } from '@angular/material/radio';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
@@ -45,7 +45,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MatRadioModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

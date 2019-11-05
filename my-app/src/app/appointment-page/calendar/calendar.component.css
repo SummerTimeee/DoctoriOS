@@ -1,0 +1,61 @@
+.flyer {
+    background-image: url("https://www.paperdirect.com/-/media/products/pd/stationery/business-stationery/border-papers/designed-border-papers/hf0662p-pd1097-halloween-night-border-papers-000.ashx?bc=FFFFFF&w=540&h=540");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 2%;
+}
+
+.white-page {
+    background-color: #ffffff;
+    margin: 1rem;
+    height: 43rem;
+}
+
+.month {
+    padding: 70px 25px;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}

@@ -18,6 +18,7 @@ import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-imag
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { PromoComponent } from './home/promo/promo.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { CalendarComponent } from './appointment-page/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     NameOfPatientComponent,
     HomeButtonColorComponent,
     FullNameComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,

@@ -2,14 +2,18 @@
     <div class="white-page">
         <h1>Full Name *</h1>
         <mat-form-field>
-            <input matInput placeholder="Please enter full name" [formControl]="email" required>
+            <input matInput placeholder="First name" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Last name" [formControl]="email" required>
             <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
         <h1>Phone Number *</h1>
         <mat-form-field>
-                <input matInput placeholder="Please enter phone number" [formControl]="email" required>
-                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-            </mat-form-field>
+            <input matInput placeholder="Please enter phone number" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
     </div>
     <button mat-button> NEXT</button>
 </div>

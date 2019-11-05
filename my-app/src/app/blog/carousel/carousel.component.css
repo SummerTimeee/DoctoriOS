@@ -2,7 +2,7 @@ div {
     display: flex;
     flex-direction: row;
     background-color: black;
-    height: auto;
+    height: 22rem;
 }
 
 button {
@@ -11,7 +11,7 @@ button {
 
 }
 iframe {
-    padding-top: 9rem;
+    padding-top: 8rem;
     height: auto;
     width: 100%;
 }

@@ -9,7 +9,8 @@
 }
 
 .white-page {
-  background-color: #ffffff;
+  background-color: #0e0d0d;
+  opacity: 0.4;
   margin: 1rem;
   height: 43rem;
 }

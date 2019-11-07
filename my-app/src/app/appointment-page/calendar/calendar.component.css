@@ -8,12 +8,13 @@
 }
 
 .white-page {
-    background-color: #ffffff;
+    background-color: black;
+    opacity: 0.5;
     margin: 1rem;
     height: 43rem;
 }
 
-.month {
+/* .month {
     padding: 70px 25px;
     background: #1abc9c;
     text-align: center;
@@ -58,4 +59,4 @@
     margin-bottom: 5px;
     font-size: 12px;
     color: #777;
-}
+} */

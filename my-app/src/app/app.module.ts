@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent} from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatMenuModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatMenuModule, MatSelectModule, MatInputModule, MatFormFieldModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { CountdownTimerComponent } from './home/countdown-timer/countdown-timer.component';
 import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-image.component';
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { PromoComponent } from './home/promo/promo.component';
+import { BlogComponent } from './blog/blog.component';
+import { CarouselComponent } from './blog/carousel/carousel.component';
+import { AboutUsComponent } from './blog/about-us/about-us.component';
+import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
+import { FormsModule } from '@angular/forms';
+import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,12 @@ import { PromoComponent } from './home/promo/promo.component';
     CountdownTimerComponent,
     CellPhoneImageComponent,
     QuickLinksComponent,
-    PromoComponent
+    PromoComponent,
+    BlogComponent,
+    CarouselComponent,
+    AboutUsComponent,
+    ModifyDeleteFormComponent,
+    SocialMediaLinksComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +40,11 @@ import { PromoComponent } from './home/promo/promo.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

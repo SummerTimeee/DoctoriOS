@@ -6,8 +6,7 @@ import { AppointmentPageComponent } from './appointment-page/appointment-page.co
 const routes: Routes =
   [
     {
-      path: '',
-      component: AppointmentPageComponent
+      path: '',component: AppointmentPageComponent
     }
   ];
 

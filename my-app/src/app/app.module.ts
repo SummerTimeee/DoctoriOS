@@ -3,8 +3,18 @@ import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ToolbarComponent} from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatMenuModule, MatFormFieldModule, MatInputModule,  MatDatepickerModule, MatNativeDateModule } from '@angular/material';
+import {
+  MatButtonModule,
+  MatIconModule,
+  MatMenuModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatSelectModule,
+} from '@angular/material';
 import { MatRadioModule } from '@angular/material/radio';
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
@@ -17,16 +27,27 @@ import { CountdownTimerComponent } from './home/countdown-timer/countdown-timer.
 import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-image.component';
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { PromoComponent } from './home/promo/promo.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
+import { BlogComponent } from './blog/blog.component';
+import { CarouselComponent } from './blog/carousel/carousel.component';
+import { AboutUsComponent } from './blog/about-us/about-us.component';
+import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
+import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 import { CalendarComponent } from './appointment-page/calendar/calendar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ToolbarComponent,
     HomeComponent,
     CountdownTimerComponent,
     CellPhoneImageComponent,
     QuickLinksComponent,
+    PromoComponent,
+    BlogComponent,
+    CarouselComponent,
+    AboutUsComponent,
+    ModifyDeleteFormComponent,
+    SocialMediaLinksComponent,
     PromoComponent,
     AppointmentPageComponent,
     IntroToAppFormComponent,
@@ -50,7 +71,12 @@ import { CalendarComponent } from './appointment-page/calendar/calendar.componen
     FormsModule,
     MatInputModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

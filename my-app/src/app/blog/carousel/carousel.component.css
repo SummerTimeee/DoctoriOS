@@ -1,20 +1,4 @@
-div {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    height: 22rem;
-}
-
-button {
-    margin-top: 8rem;
-    color: white;
-
-}
 iframe {
-    padding-top: 8rem;
-    height: auto;
+    height: max-content;
     width: 100%;
-}
-.fa-chevron-left {
-    color: pink;
 }

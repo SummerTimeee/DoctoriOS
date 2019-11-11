@@ -6,15 +6,15 @@
     height: 100%;
     margin: 2%;
     text-align: center;
+    margin-bottom: 4rem;
 }
 h1{
     padding: 12rem 0rem 0rem;
     color: #ffffff;
 }
-.white-page {
+.container {
     background-color: #020202;
     opacity: 0.4;
-    margin: 1rem;
     height: 43rem;
     overflow: auto;
 }
@@ -30,4 +30,5 @@ h1{
 .mat-button {
     background-color: rgb(219, 159, 7);
     width: 100%;
+    bottom: 2rem;
 }

@@ -5,6 +5,7 @@
     background-size: cover;
     height: 100%;
     margin: 2%;
+    margin-bottom: 3rem;
 }
 
 .fa-briefcase-medical {
@@ -18,13 +19,5 @@
 button {
     background-color: rgb(219, 159, 7);
     width: 100%;
-    top: 13rem;
-}
-
-@media screen and (max-width: 1500px) {
-    button {
-        background-color: rgb(219, 159, 7);
-        width: 100%;
-        top: 13rem;
-    }
+    top: 9rem;
 }

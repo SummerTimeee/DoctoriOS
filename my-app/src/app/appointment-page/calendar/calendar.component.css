@@ -11,7 +11,7 @@
 .white-page {
     background-color: black;
     opacity: 0.4;
-    height: 43rem;
+    height: 100%;
 }
 
 .calendar {
@@ -24,13 +24,7 @@
     bottom: 2rem;
 }
 
-.fa-chevron-right:before {
-    font-size: 1.5rem;
-    padding-left: 18rem;
-    color: black;
-}
-
-.fa-chevron-left:before {
+.fa-chevron-right:before, .fa-chevron-left:before {
     font-size: 1.5rem;
     color: black;
 }

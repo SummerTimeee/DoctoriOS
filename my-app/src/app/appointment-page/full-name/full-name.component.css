@@ -12,7 +12,7 @@
 .container {
   background-color: #0e0d0d;
   opacity: 0.4;
-  height: 43rem;
+  height: 100%;
 }
 
 .mat-button {
@@ -27,16 +27,17 @@
   margin: 1rem;
   padding: 0.5rem;
 }
+
 h1 {
   color: #ffffff;
   padding-top: 1rem;
 }
-.fa-chevron-right:before {
+
+.fa-chevron-right:before, .fa-chevron-left:before {
   font-size: 1.5rem;
-  padding-left: 18rem;
   color: black;
 }
-.fa-chevron-left:before {
-  font-size: 1.5rem;
-  color:black;
+
+button {
+  color: orangered;
 }

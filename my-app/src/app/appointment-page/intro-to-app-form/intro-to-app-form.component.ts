@@ -6,7 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./intro-to-app-form.component.css']
 })
 export class IntroToAppFormComponent {
-
-
-
 }

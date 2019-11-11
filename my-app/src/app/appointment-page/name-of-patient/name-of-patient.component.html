@@ -1,5 +1,5 @@
 <div class="flyer">
-    <div class="white">
+    <div class="container">
         <h1>Select your patient</h1>
         <h4>( What is the name of your phone? )</h4>
         <div class="radio-group" *ngFor="let patient of patients">
@@ -8,5 +8,6 @@
             </mat-radio-button>
         </div>
     </div>
-    <button mat-button> NEXT</button>
+    <i class="fas fa-chevron-left" (click)="onNext()"></i>
+    <i class="fas fa-chevron-right" (click)="onPrevious()"></i>
 </div>

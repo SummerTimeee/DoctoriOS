@@ -1,0 +1,12 @@
+<div class="flyer">
+    <div class="white">
+        <h1>Select your patient</h1>
+        <h4>( What is the name of your phone? )</h4>
+        <div class="radio-group" *ngFor="let patient of patients">
+            <mat-radio-button>
+                {{ patient }}
+            </mat-radio-button>
+        </div>
+    </div>
+    <button mat-button> NEXT</button>
+</div>

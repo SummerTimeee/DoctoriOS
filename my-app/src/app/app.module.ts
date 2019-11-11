@@ -5,7 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent} from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatMenuModule, MatSelectModule, MatInputModule, MatFormFieldModule } from '@angular/material';
+import {
+  MatButtonModule,
+  MatIconModule,
+  MatMenuModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatSelectModule,
+} from '@angular/material';
+import { MatRadioModule } from '@angular/material/radio';
+import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
+import { IntroToAppFormComponent } from './appointment-page/intro-to-app-form/intro-to-app-form.component';
+import { NameOfPatientComponent } from './appointment-page/name-of-patient/name-of-patient.component';
+import { HomeButtonColorComponent } from './appointment-page/home-button-color/home-button-color.component';
+import { FullNameComponent } from './appointment-page/full-name/full-name.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { CountdownTimerComponent } from './home/countdown-timer/countdown-timer.component';
 import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-image.component';
@@ -15,8 +31,8 @@ import { BlogComponent } from './blog/blog.component';
 import { CarouselComponent } from './blog/carousel/carousel.component';
 import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
-import { FormsModule } from '@angular/forms';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
+import { CalendarComponent } from './appointment-page/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +47,15 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
     CarouselComponent,
     AboutUsComponent,
     ModifyDeleteFormComponent,
-    SocialMediaLinksComponent
+    SocialMediaLinksComponent,
+    PromoComponent,
+    AppointmentPageComponent,
+    IntroToAppFormComponent,
+    NameOfPatientComponent,
+    HomeButtonColorComponent,
+    FullNameComponent,
+    ToolbarComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +64,14 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatMenuModule,
+    MatRadioModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatMenuModule,
     MatFormFieldModule,
     MatInputModule,

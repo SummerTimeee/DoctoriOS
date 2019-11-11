@@ -34,9 +34,9 @@ h1 {
 .fa-chevron-right:before {
   font-size: 1.5rem;
   padding-left: 18rem;
-  color: white;
+  color: black;
 }
 .fa-chevron-left:before {
   font-size: 1.5rem;
-  color: white;
+  color:black;
 }

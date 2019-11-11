@@ -6,9 +6,10 @@ import { AppointmentPageComponent } from './appointment-page/appointment-page.co
 
 const routes: Routes =
   [
-    {path: '', component: HomeComponent},
-    {path: 'blog',  component: BlogComponent},
-    {path: 'book', component: AppointmentPageComponent}
+    { path: '', component: HomeComponent },
+    { path: 'home', component:HomeComponent },
+    { path: 'blog',  component: BlogComponent },
+    { path: 'book', component: AppointmentPageComponent }
   ];
 
 @NgModule({

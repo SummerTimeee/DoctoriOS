@@ -33,6 +33,7 @@ import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 import { CalendarComponent } from './appointment-page/calendar/calendar.component';
+import { PhoneTreatmentsComponent } from './appointment-page/phone-treatments/phone-treatments.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { CalendarComponent } from './appointment-page/calendar/calendar.componen
     HomeButtonColorComponent,
     FullNameComponent,
     ToolbarComponent,
-    CalendarComponent
+    CalendarComponent,
+    PhoneTreatmentsComponent
   ],
   imports: [
     BrowserModule,

@@ -17,15 +17,20 @@
 .calendar {
     margin: 45% 22%;
 }
+
 .mat-button {
     background-color: rgb(219, 159, 7);
     width: 100%;
     bottom: 2rem;
-  }
-  .fa-chevron-right:before {
+}
+
+.fa-chevron-right:before {
     font-size: 1.5rem;
     padding-left: 18rem;
+    color: white;
 }
+
 .fa-chevron-left:before {
     font-size: 1.5rem;
+    color: white;
 }

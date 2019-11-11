@@ -22,6 +22,4 @@ export class NameOfPatientComponent {
       'iPhone XR',
       'iPhone XS'
     ]
-
-
 }

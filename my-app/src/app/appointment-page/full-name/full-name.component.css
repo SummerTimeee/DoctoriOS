@@ -31,3 +31,10 @@ h1 {
   color: #ffffff;
   padding-top: 1rem;
 }
+.fa-chevron-right:before {
+  font-size: 1.5rem;
+  padding-left: 18rem;
+}
+.fa-chevron-left:before {
+  font-size: 1.5rem;
+}

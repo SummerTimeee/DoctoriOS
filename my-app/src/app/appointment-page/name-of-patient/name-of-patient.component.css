@@ -39,3 +39,10 @@ h1, h4 {
 .mat-radio-label {
     color: black;
 }
+.fa-chevron-right:before {
+    font-size: 1.5rem;
+    padding-left: 18rem;
+}
+.fa-chevron-left:before {
+    font-size: 1.5rem;
+}

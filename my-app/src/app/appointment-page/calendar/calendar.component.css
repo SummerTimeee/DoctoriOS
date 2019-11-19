@@ -14,6 +14,11 @@
     height: 100%;
 }
 
+h1 {
+    color: white;
+    padding-top: 12rem;
+}
+
 .calendar {
     margin: 45% 22%;
 }
@@ -21,7 +26,7 @@
 .fa-chevron-right:before {
     font-size: 1.5rem;
     color: white;
-    padding-left: 6rem;
+    padding-left: 10rem;
 }
 
 .fa-chevron-left:before {

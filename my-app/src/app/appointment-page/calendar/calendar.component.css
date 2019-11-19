@@ -18,9 +18,16 @@
     margin: 45% 22%;
 }
 
-.fa-chevron-right:before, .fa-chevron-left:before {
+.fa-chevron-right:before {
     font-size: 1.5rem;
     color: white;
+    padding-left: 6rem;
+}
+
+.fa-chevron-left:before {
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 6rem;
 }
 
 .button {

@@ -16,6 +16,7 @@
 }
 h1 {
     color: white;
+    padding-top: 12rem;
 }
 .radio-group {
     display: flex;

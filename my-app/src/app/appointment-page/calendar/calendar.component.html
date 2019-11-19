@@ -1,11 +1,13 @@
 <div class="flyer">
-  <div class="white-page">
+  <div class="container">
     <mat-form-field class="calendar">
       <input matInput [matDatepicker]="picker" placeholder="Choose a date">
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
   </div>
-  <i class="fas fa-chevron-left" (click)="onNext()"></i>
-  <i class="fas fa-chevron-right" (click)="onPrevious()"></i>
+    <div class="button">
+      <i class="fas fa-chevron-left" (click)="onNext()"></i>
+      <i class="fas fa-chevron-right" (click)="onPrevious()"></i>
+  </div>
 </div>

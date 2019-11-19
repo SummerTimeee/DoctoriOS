@@ -15,6 +15,8 @@
             <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
     </div>
-    <i class="fas fa-chevron-left" (click)="onNext()"></i>
-    <i class="fas fa-chevron-right" (click)="onPrevious()"></i>
+    <div class="button">
+        <i class="fas fa-chevron-left" (click)="onNext()"></i>
+        <i class="fas fa-chevron-right" (click)="onPrevious()"></i>
+    </div>
 </div>

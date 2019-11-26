@@ -29,6 +29,8 @@ import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 import { FormComponent } from './appointment-page/form/form.component';
+import { ServicesComponent } from './services/services.component';
+import { CellPhonePatientsHeaderComponent } from './services/cell-phone-patients-header/cell-phone-patients-header.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { FormComponent } from './appointment-page/form/form.component';
     SocialMediaLinksComponent,
     PromoComponent,
     AppointmentPageComponent,
-    FormComponent
+    FormComponent,
+    ServicesComponent,
+    CellPhonePatientsHeaderComponent
   ],
   imports: [
     BrowserModule,

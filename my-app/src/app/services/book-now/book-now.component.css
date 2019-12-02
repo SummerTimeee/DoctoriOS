@@ -10,4 +10,8 @@ button {
     position: absolute;
     top: 9rem;
     font-size: 1.3rem;
+    font-weight: 500;
+}
+h1{
+    text-align: center;
 }

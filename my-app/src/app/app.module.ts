@@ -31,6 +31,7 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
 import { FormComponent } from './appointment-page/form/form.component';
 import { ServicesComponent } from './services/services.component';
 import { BookNowComponent } from './services/book-now/book-now.component';
+import { CellPhonePatientsComponent } from './services/cell-phone-patients/cell-phone-patients.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { BookNowComponent } from './services/book-now/book-now.component';
     AppointmentPageComponent,
     FormComponent,
     ServicesComponent,
-    BookNowComponent
+    BookNowComponent,
+    CellPhonePatientsComponent
   ],
   imports: [
     BrowserModule,

@@ -6,10 +6,10 @@ import { Component} from '@angular/core';
   styleUrls: ['./quick-links.component.css']
 })
 export class QuickLinksComponent  {
+  hours = 'Hours';
+  weekdays = 'Monday - Saturday: 9:00 AM - 6:00 PM';
+  phone = '(314).669.4292';
+  closed = 'Sunday : CLosed'
 
   
-
-  ngOnInit() {
-  }
-
 }

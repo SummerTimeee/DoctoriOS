@@ -7,3 +7,6 @@ p {
     line-height: 1.4;
     margin-bottom: 1rem;
 }
+h1, h5 {
+    text-align: center;
+}

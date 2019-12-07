@@ -15,6 +15,8 @@ ngOnInit() {
   this.images = this.imageSources.map((link: string) => this.sanitizer.bypassSecurityTrustResourceUrl(link));
 }
 
+title = 'Repairing Services'
+
   nameOfPatient: string;
   patients: string[] =
     [
@@ -44,6 +46,9 @@ ngOnInit() {
     ]
     images: Array<SafeResourceUrl>;
 
+
+
+    
 }
 
 

@@ -5,6 +5,8 @@ ul.accordion {
     font-size: 16px;
     font-style: italic;
     line-height: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 ul.accordion li {
@@ -15,7 +17,7 @@ ul.accordion li {
     border-bottom: 2px solid #fff;
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -133,14 +135,12 @@ ul.accordion li.ipX {
 
     ul.accordion {
         list-style: none;
-        position: absolute;
         width: 100%;
         right: 11px;
         font-family: Cambria, serif;
         font-size: 16px;
         font-style: italic;
         line-height: 1.5em;
-        padding-top: 20%;
         display: grid;
         top: 32%;
     }

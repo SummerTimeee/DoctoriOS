@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./promo.component.css']
 })
 export class PromoComponent {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+title = 'Deal Of The Month';
 
 }

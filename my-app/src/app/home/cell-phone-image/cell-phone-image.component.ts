@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./cell-phone-image.component.css']
 })
 export class CellPhoneImageComponent  {
-
-
-
-  ngOnInit() {
-  }
-
+  title = 'St.Louis Phone Repair';
 }

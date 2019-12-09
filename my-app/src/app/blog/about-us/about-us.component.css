@@ -7,6 +7,10 @@ div {
     height: 100%;
 }
 
+h5,h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 p {
     font-weight: 300;
     line-height: 1.4;

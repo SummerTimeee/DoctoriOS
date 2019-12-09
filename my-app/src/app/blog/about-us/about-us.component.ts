@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent  {
-  title = 'LET US INTRODUCE OURSELVES'
-  header = '#1 Afforable Phone Repair Service'
+  title = 'LET US INTRODUCE OURSELVES';
+  header = '#1 Afforable Phone Repair Service';
+  about = 'About Us';
+  
 }

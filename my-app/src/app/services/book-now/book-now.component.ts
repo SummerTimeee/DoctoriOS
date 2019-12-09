@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 export class BookNowComponent {
 title = 'Cell Phone Patients';
 book = 'Book Now';
-
 }

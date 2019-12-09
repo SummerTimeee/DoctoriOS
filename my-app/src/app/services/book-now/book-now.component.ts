@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './book-now.component.html',
   styleUrls: ['./book-now.component.css']
 })
-export class BookNowComponent  {
-
-
+export class BookNowComponent {
+title = 'Cell Phone Patients';
+book = 'Book Now';
 }

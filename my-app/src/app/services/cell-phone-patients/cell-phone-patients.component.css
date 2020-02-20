@@ -15,9 +15,7 @@ ul.accordion {
 }
 
 ul.accordion li {
-    width: 90px;
     height: 556px;
-    display: inline-block;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
     background-color: #fff;
@@ -29,6 +27,11 @@ ul.accordion li {
     -moz-box-shadow: 1px 3px 15px #555;
     -webkit-box-shadow: 1px 3px 15px #555;
     box-shadow: 1px 3px 15px #555;
+}
+
+li {
+    width: 90px;
+    transition: width 3s;
 }
 
 .heading {
@@ -46,13 +49,36 @@ ul.accordion li {
     text-shadow: -1px -1px 1px #ccc;
 }
 
+li > div:last-of-type {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+li > div:first-of-type {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+li:hover > div:last-of-type {
+    opacity: 1;
+}
+
+li:hover > div:first-of-type {
+    opacity: 0;
+}
+
+li:hover {
+    width: 400px;
+    transition: width 3s;
+}
+
+
 .description {
     position: absolute;
     width: 480px;
     height: 180px;
     bottom: 0px;
     left: 0px;
-    display: none;
     background: rgba(255, 255, 255, 0.8);
 }
 
@@ -151,9 +177,7 @@ ul.accordion li.ipX {
     }
     ul.accordion li {
         float: right;
-        width: 90px;
         height: 556px;
-        display: inline-block;
         border-right: 2px solid #fff;
         border-bottom: 2px solid #fff;
         background-color: #fff;
@@ -166,6 +190,13 @@ ul.accordion li.ipX {
         -webkit-box-shadow: 1px 3px 15px #555;
         box-shadow: 1px 3px 15px #555;
     }
+
+    li {
+        width: 90px;
+        transition: width 3s;
+    }
+    
+    
     .heading {
         background-color: #fff;
         padding: 10px;
@@ -180,15 +211,39 @@ ul.accordion li.ipX {
         text-align: center;
         text-shadow: -1px -1px 1px #ccc;
     }
+
+    li > div:last-of-type {
+        opacity: 0;
+        transition: opacity 300ms;
+    }
+    
+    li > div:first-of-type {
+        opacity: 1;
+        transition: opacity 300ms;
+    }
+    
+    li:hover > div:last-of-type {
+        opacity: 1;
+    }
+    
+    li:hover > div:first-of-type {
+        opacity: 0;
+    }
+    
+    li:hover {
+        width: 400px;
+        transition: width 3s;
+    }
+
     .description {
         position: absolute;
         width: 480px;
         height: 180px;
         bottom: 0px;
         left: 0px;
-        display: none;
         background: rgba(255, 255, 255, 0.8);
     }
+
     h2 {
         text-transform: uppercase;
         font-style: normal;
@@ -200,6 +255,7 @@ ul.accordion li.ipX {
         margin: 11px 0px 15px 20px;
         text-shadow: -1px -1px 1px #ccc;
     }
+    
     p {
         line-height: 14px;
         margin: 10px 22px;

@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -89,6 +90,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -118,8 +120,17 @@
               "devServerTarget": "my-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/my-app",
+            "netlifyToken": "1287cce8e8c01f367b5e2018d3598e525f0e33a05fce60dbbc672d603ed44806",
+            "siteId": "7fcc13da-c833-4dd3-88d8-0fcb8f9ec053"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-app"
 }

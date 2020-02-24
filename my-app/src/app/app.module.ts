@@ -34,8 +34,7 @@ import { BookNowComponent } from './services/book-now/book-now.component';
 import { CellPhonePatientsComponent } from './services/cell-phone-patients/cell-phone-patients.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
 import { ComingSoonComponent } from './accessories/coming-soon/coming-soon.component';
-import { CalendarComponent } from './appointment-page/calendar/calendar.component';
-import { NameOfPatientComponent } from './appointment-page/name-of-patient/name-of-patient.component'
+
 
 
 @NgModule({

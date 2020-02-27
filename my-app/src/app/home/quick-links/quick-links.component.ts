@@ -9,5 +9,5 @@ export class QuickLinksComponent  {
   Hours = 'Hours';
   weekdays = 'Monday - Saturday: 9:00 AM - 6:30 PM';
   phone = '(314).669.4292';
-  closed = 'Sunday : Closed';
+  Closed = 'Sunday : Closed';
 }

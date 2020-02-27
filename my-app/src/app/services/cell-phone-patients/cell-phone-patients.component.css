@@ -94,6 +94,9 @@ h2 {
     text-shadow: -1px -1px 1px #ccc;
 }
 
+h4 {
+text-decoration: line-through;
+}
 p {
     line-height: 14px;
     margin: 10px 22px;

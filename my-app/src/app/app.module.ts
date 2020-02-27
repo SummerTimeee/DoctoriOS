@@ -36,6 +36,7 @@ import { AccessoriesComponent } from './accessories/accessories.component';
 import { ComingSoonComponent } from './accessories/coming-soon/coming-soon.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +58,7 @@ import { ComingSoonComponent } from './accessories/coming-soon/coming-soon.compo
     BookNowComponent,
     CellPhonePatientsComponent,
     AccessoriesComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
   ],
   imports: [
     BrowserModule,

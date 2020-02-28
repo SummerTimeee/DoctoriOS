@@ -8,7 +8,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class CarouselComponent implements OnInit {
 
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
     this.images = this.imageSources.map((link: string) => this.sanitizer.bypassSecurityTrustResourceUrl(link));

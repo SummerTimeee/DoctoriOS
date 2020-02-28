@@ -60,6 +60,7 @@ import { ComingSoonComponent } from './accessories/coming-soon/coming-soon.compo
     AccessoriesComponent,
     ComingSoonComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,

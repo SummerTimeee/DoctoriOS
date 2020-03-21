@@ -994,7 +994,7 @@ BlogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("iframe {\n    height: -webkit-max-content;\n    height: -moz-max-content;\n    height: max-content;\n    width: 100%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9jYXJvdXNlbC9jYXJvdXNlbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkJBQW1CO0lBQW5CLHdCQUFtQjtJQUFuQixtQkFBbUI7SUFDbkIsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvYmxvZy9jYXJvdXNlbC9jYXJvdXNlbC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaWZyYW1lIHtcbiAgICBoZWlnaHQ6IG1heC1jb250ZW50O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("iframe {\n    height: -webkit-max-content;\n    height: -moz-max-content;\n    height: max-content;\n    width: 100%;\n}\n\n@media screen and (min-width:1200px) {\n    iframe {\n        height: -webkit-max-content;\n        height: -moz-max-content;\n        height: max-content;\n        width: 100%;\n        padding-left: 14rem;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9jYXJvdXNlbC9jYXJvdXNlbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksMkJBQW1CO0lBQW5CLHdCQUFtQjtJQUFuQixtQkFBbUI7SUFDbkIsV0FBVztBQUNmOztBQUVBO0lBQ0k7UUFDSSwyQkFBbUI7UUFBbkIsd0JBQW1CO1FBQW5CLG1CQUFtQjtRQUNuQixXQUFXO1FBQ1gsbUJBQW1CO0lBQ3ZCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ibG9nL2Nhcm91c2VsL2Nhcm91c2VsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpZnJhbWUge1xuICAgIGhlaWdodDogbWF4LWNvbnRlbnQ7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6MTIwMHB4KSB7XG4gICAgaWZyYW1lIHtcbiAgICAgICAgaGVpZ2h0OiBtYXgtY29udGVudDtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIHBhZGRpbmctbGVmdDogMTRyZW07XG4gICAgfVxufSJdfQ== */");
 
 /***/ }),
 
@@ -1018,12 +1018,11 @@ let CarouselComponent = class CarouselComponent {
     constructor(sanitizer) {
         this.sanitizer = sanitizer;
         this.imageSources = [
-            'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D775879029512636%26id%3D100012716381038&width=500',
+            "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falletta.son%2Fposts%2F3179360095426892&width=500",
+            "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fguyton.guyton.3%2Fposts%2F2635738569996688&width=500",
+            "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkatyzia.butler.73%2Fposts%2F413926759561442&width=500",
             'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBDubb2x%2Fposts%2F2264839380494406&width=500',
-            'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fyae.jones.9%2Fposts%2F2143381925767441&width=500',
             'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBigNisha%2Fposts%2F2505836309464590&width=500',
-            'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrianna.everage%2Fposts%2F10158761789294698&width=500',
-            'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fteontae.winters%2Fposts%2F2180003512064768&width=500'
         ];
         this.selectedImageIndex = 0;
     }

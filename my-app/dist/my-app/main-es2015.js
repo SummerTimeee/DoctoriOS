@@ -162,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1> {{ title }}</h1>\n<img src=\"../../assets/images/phone-repair.jpg\" class=\"logo\">");
+/* harmony default export */ __webpack_exports__["default"] = ("<h1> {{ title }}</h1>\n<img src=\"../../assets/images/flyer-boost.jpg\" class=\"logo\">");
 
 /***/ }),
 

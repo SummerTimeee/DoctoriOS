@@ -21,4 +21,12 @@ h1, h2 {
     font-weight: 100;
     font-size: 1.2rem;
 }
+@media screen and (min-width:1200px) {
+    h1, h2 {
+        text-align: center;
+        color: #333;
+        font-weight: 100;
+        font-size: 2.2rem;
+    }
+}
 

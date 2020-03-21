@@ -1,7 +1,12 @@
+:host {
+    margin: auto;
+    display: flex;
+}
 h2 {
     text-align: center;
     font-family: 'Nanum Brush Script', cursive;
     font-size: 1.5rem;
+    padding-top: 1rem;
 }
 h3 {
     text-align: center;
@@ -9,4 +14,22 @@ h3 {
     font-size: 2.5rem;
     font-family: 'Nanum Brush Script', cursive;
     margin: 0;
+}
+@media screen and (min-width:1200px) {
+    h2 {
+        text-align: center;
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+    h3 {
+        text-align: center;
+        height: 6rem;
+        font-size: 3.5rem;
+        font-family: 'Nanum Brush Script', cursive;
+        margin: 0;
+    }
+    div {
+        padding-left: 10rem;
+    }
 }

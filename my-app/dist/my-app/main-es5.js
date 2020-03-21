@@ -311,7 +311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "    <div class=\"home\">\n        <h2 id=\"deal\">Deal of the month</h2>\n        <img src=\"../../assets/images/christmas-flyer.jpg\">\n    </div>";
+    __webpack_exports__["default"] = "    <div class=\"home\">\n        <h2 id=\"deal\">Deal of the month</h2>\n    </div>";
     /***/
   },
 

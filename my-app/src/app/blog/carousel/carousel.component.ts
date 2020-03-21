@@ -19,12 +19,11 @@ export class CarouselComponent implements OnInit {
   }
 
   imageSources: string[] = [
-    'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D775879029512636%26id%3D100012716381038&width=500',
+    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falletta.son%2Fposts%2F3179360095426892&width=500",
+    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fguyton.guyton.3%2Fposts%2F2635738569996688&width=500",
+    "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkatyzia.butler.73%2Fposts%2F413926759561442&width=500",
     'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBDubb2x%2Fposts%2F2264839380494406&width=500',
-    'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fyae.jones.9%2Fposts%2F2143381925767441&width=500',
     'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBigNisha%2Fposts%2F2505836309464590&width=500',
-    'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrianna.everage%2Fposts%2F10158761789294698&width=500',
-    'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fteontae.winters%2Fposts%2F2180003512064768&width=500'
   ];
   selectedImageIndex = 0;
   images: Array<SafeResourceUrl>;

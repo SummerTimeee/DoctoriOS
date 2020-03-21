@@ -2,18 +2,36 @@
     width: 100%;
     opacity: 0.6;
 }
+
 button {
     bottom: 4rem;
     left: 1rem;
 }
+
 .top-right {
     position: absolute;
     top: 9rem;
     font-size: 1.3rem;
     font-weight: 500;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+    button {
+        bottom: 8rem;
+        left: 1rem;
+        width: 10rem;
+        height: 4rem;
+        font-size: 1rem;
+    }
+    h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 2.5rem;
+    }
 }

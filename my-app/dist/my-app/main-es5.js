@@ -6,10 +6,40 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html":
-  /*!***********************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html ***!
-    \***********************************************************************************************/
+  "./$$_lazy_route_resource lazy recursive":
+  /*!******************************************************!*\
+    !*** ./$$_lazy_route_resource lazy namespace object ***!
+    \******************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function $$_lazy_route_resourceLazyRecursive(module, exports) {
+    function webpackEmptyAsyncContext(req) {
+      // Here Promise.resolve().then() is used instead of new Promise() to prevent
+      // uncaught exception popping up in devtools
+      return Promise.resolve().then(function () {
+        var e = new Error("Cannot find module '" + req + "'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+      });
+    }
+
+    webpackEmptyAsyncContext.keys = function () {
+      return [];
+    };
+
+    webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+    module.exports = webpackEmptyAsyncContext;
+    webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html":
+  /*!**********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html ***!
+    \**********************************************************************************************/
 
   /*! exports provided: default */
 
@@ -26,10 +56,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html":
-  /*!***********************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html ***!
-    \***********************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html":
+  /*!**********************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -46,10 +76,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
-  /*!***************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
-    \***************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+  /*!**************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+    \**************************************************************************/
 
   /*! exports provided: default */
 
@@ -66,10 +96,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html":
-  /*!*********************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html ***!
-    \*********************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html":
+  /*!********************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html ***!
+    \********************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -86,10 +116,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html":
-  /*!**************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html ***!
-    \**************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html":
+  /*!*************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html ***!
+    \*************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -106,10 +136,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html":
-  /*!**********************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html ***!
-    \**********************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html ***!
+    \*********************************************************************************************/
 
   /*! exports provided: default */
 
@@ -126,10 +156,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html":
-  /*!*********************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html ***!
-    \*********************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html":
+  /*!********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html ***!
+    \********************************************************************************/
 
   /*! exports provided: default */
 
@@ -146,10 +176,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html":
-  /*!**********************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html ***!
-    \**********************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html ***!
+    \*********************************************************************************************/
 
   /*! exports provided: default */
 
@@ -166,10 +196,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html":
-  /*!******************************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html ***!
-    \******************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html":
+  /*!*****************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -186,10 +216,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html":
-  /*!******************************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html ***!
-    \******************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html":
+  /*!*****************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -206,10 +236,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html":
-  /*!**************************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html ***!
-    \**************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html":
+  /*!*************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -221,15 +251,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n<img src=\"../../assets/images/phone-repair.jpg\" class=\"logo\">";
+    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n";
     /***/
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html":
-  /*!************************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html ***!
-    \************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html":
+  /*!***********************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -246,10 +276,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
-  /*!*********************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
-    \*********************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+  /*!********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+    \********************************************************************************/
 
   /*! exports provided: default */
 
@@ -266,10 +296,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html":
-  /*!****************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html ***!
-    \****************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html":
+  /*!***************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html ***!
+    \***************************************************************************************/
 
   /*! exports provided: default */
 
@@ -281,15 +311,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "    <div class=\"home\">\n        <h2 id=\"deal\">Deal of the month</h2>\n        <img src=\"../../assets/images/christmas-flyer.jpg\">\n    </div>";
+    __webpack_exports__["default"] = "    <div class=\"home\">\n        <h2 id=\"deal\">Deal of the month</h2>\n        <img src=\"../../assets/images/flyer-boost.jpg\" class=\"logo\">\n    </div>";
     /***/
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html":
-  /*!****************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html ***!
-    \****************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html":
+  /*!***************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html ***!
+    \***************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -301,15 +331,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"quick-links-grid-container\">\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/services']\">SERVICES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/book']\">BOOK</a></div>\n    </div>\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/accesories']\">ACCESSORIES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/blog']\">BLOG</a></div>\n    </div>\n</div>\n\n<div>\n    <h1> St.Louis<br> & <br>East Saint Louis Area</h1>\n    <h2> <i class=\"fas fa-phone-alt\"></i>{{ phone }}</h2>\n    <h1>{{ Hours }}</h1>\n    <h3>{{ weekdays }}</h3>\n    <h3>{{ Closed }} </h3>\n    <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199412.4868559348!2d-90.38389084380192!3d38.6530165071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.+Louis%2C+MO!5e0!3m2!1sen!2sus!4v1547169660021\"\n        frameborder=\"0\" style=\"border:0; width: 100%; height: 500px;\" allowfullscreen=\"\">\n    </iframe>\n</div>";
+    __webpack_exports__["default"] = "<div class=\"quick-links-grid-container\">\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/services']\">SERVICES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/book']\">BOOK</a></div>\n    </div>\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/accesories']\">ACCESSORIES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/blog']\">BLOG</a></div>\n    </div>\n</div>\n\n<div>\n    <h1> St.Louis<br> & <br>East Saint Louis Area</h1>\n    <h2> <i class=\"fas fa-phone-alt\"></i>{{ phone }}</h2>\n    <h1>{{ Hours }}</h1>\n    <h2>{{ weekdays }}</h2>\n    <h2>{{ Closed }}</h2>\n    <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199412.4868559348!2d-90.38389084380192!3d38.6530165071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.+Louis%2C+MO!5e0!3m2!1sen!2sus!4v1547169660021\"\n        frameborder=\"0\" style=\"border:0; width: 100%; height: 500px;\" allowfullscreen=\"\">\n    </iframe>\n</div>";
     /***/
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html":
-  /*!**************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html ***!
-    \**************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html":
+  /*!*************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html ***!
+    \*************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -326,10 +356,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html":
-  /*!************************************************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html ***!
-    \************************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html":
+  /*!***********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html ***!
+    \***********************************************************************************************************************/
 
   /*! exports provided: default */
 
@@ -346,10 +376,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html":
-  /*!*****************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html ***!
-    \*****************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html":
+  /*!****************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html ***!
+    \****************************************************************************************/
 
   /*! exports provided: default */
 
@@ -366,10 +396,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html":
-  /*!***************************************************************************************!*\
-    !*** ../node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html ***!
-    \***************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html":
+  /*!**************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html ***!
+    \**************************************************************************************/
 
   /*! exports provided: default */
 
@@ -386,10 +416,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "../node_modules/tslib/tslib.es6.js":
-  /*!******************************************!*\
-    !*** ../node_modules/tslib/tslib.es6.js ***!
-    \******************************************/
+  "./node_modules/tslib/tslib.es6.js":
+  /*!*****************************************!*\
+    !*** ./node_modules/tslib/tslib.es6.js ***!
+    \*****************************************/
 
   /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 
@@ -979,36 +1009,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
-  "./$$_lazy_route_resource lazy recursive":
-  /*!******************************************************!*\
-    !*** ./$$_lazy_route_resource lazy namespace object ***!
-    \******************************************************/
-
-  /*! no static exports found */
-
-  /***/
-  function $$_lazy_route_resourceLazyRecursive(module, exports) {
-    function webpackEmptyAsyncContext(req) {
-      // Here Promise.resolve().then() is used instead of new Promise() to prevent
-      // uncaught exception popping up in devtools
-      return Promise.resolve().then(function () {
-        var e = new Error("Cannot find module '" + req + "'");
-        e.code = 'MODULE_NOT_FOUND';
-        throw e;
-      });
-    }
-
-    webpackEmptyAsyncContext.keys = function () {
-      return [];
-    };
-
-    webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-    module.exports = webpackEmptyAsyncContext;
-    webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
-    /***/
-  },
-
-  /***/
   "./src/app/accessories/accessories.component.css":
   /*!*******************************************************!*\
     !*** ./src/app/accessories/accessories.component.css ***!
@@ -1052,13 +1052,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var AccessoriesComponent =
     /*#__PURE__*/
@@ -1079,7 +1079,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'app-accessories',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./accessories.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/accessories.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./accessories.component.css */
       "./src/app/accessories/accessories.component.css")).default]
@@ -1131,13 +1131,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var ComingSoonComponent =
     /*#__PURE__*/
@@ -1158,7 +1158,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'app-coming-soon',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./coming-soon.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./coming-soon.component.css */
       "./src/app/accessories/coming-soon/coming-soon.component.css")).default]
@@ -1190,19 +1190,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
-    "../node_modules/@angular/router/fesm2015/router.js");
+    "./node_modules/@angular/router/fesm2015/router.js");
     /* harmony import */
 
 
@@ -1300,13 +1300,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
@@ -1318,7 +1318,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'app-root',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./app.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./app.component.css */
       "./src/app/app.component.css")).default]
@@ -1350,25 +1350,25 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/platform-browser */
-    "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/material/toolbar */
-    "../node_modules/@angular/material/esm2015/toolbar.js");
+    "./node_modules/@angular/material/esm2015/toolbar.js");
     /* harmony import */
 
 
@@ -1392,19 +1392,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/platform-browser/animations */
-    "../node_modules/@angular/platform-browser/fesm2015/animations.js");
+    "./node_modules/@angular/platform-browser/fesm2015/animations.js");
     /* harmony import */
 
 
     var _angular_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/material */
-    "../node_modules/@angular/material/esm2015/material.js");
+    "./node_modules/@angular/material/esm2015/material.js");
     /* harmony import */
 
 
     var _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! @angular/material/radio */
-    "../node_modules/@angular/material/esm2015/radio.js");
+    "./node_modules/@angular/material/esm2015/radio.js");
     /* harmony import */
 
 
@@ -1416,7 +1416,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! @angular/forms */
-    "../node_modules/@angular/forms/fesm2015/forms.js");
+    "./node_modules/@angular/forms/fesm2015/forms.js");
     /* harmony import */
 
 
@@ -1571,13 +1571,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var AppointmentPageComponent = function AppointmentPageComponent() {
       _classCallCheck(this, AppointmentPageComponent);
@@ -1587,7 +1587,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'appointment-page',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./appointment-page.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/appointment-page.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./appointment-page.component.css */
       "./src/app/appointment-page/appointment-page.component.css")).default]
@@ -1639,13 +1639,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var FormComponent = function FormComponent() {
       _classCallCheck(this, FormComponent);
@@ -1655,7 +1655,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'form',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./form.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/appointment-page/form/form.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./form.component.css */
       "./src/app/appointment-page/form/form.component.css")).default]
@@ -1707,13 +1707,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var AboutUsComponent = function AboutUsComponent() {
       _classCallCheck(this, AboutUsComponent);
@@ -1727,7 +1727,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'about-us',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./about-us.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./about-us.component.css */
       "./src/app/blog/about-us/about-us.component.css")).default]
@@ -1779,13 +1779,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var BlogComponent = function BlogComponent() {
       _classCallCheck(this, BlogComponent);
@@ -1795,7 +1795,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'blog',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./blog.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/blog.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./blog.component.css */
       "./src/app/blog/blog.component.css")).default]
@@ -1847,19 +1847,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/platform-browser */
-    "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 
     var CarouselComponent =
     /*#__PURE__*/
@@ -1917,7 +1917,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'carousel',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./carousel.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/carousel/carousel.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./carousel.component.css */
       "./src/app/blog/carousel/carousel.component.css")).default]
@@ -1969,13 +1969,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var ModifyDeleteFormComponent = function ModifyDeleteFormComponent() {
       _classCallCheck(this, ModifyDeleteFormComponent);
@@ -1985,7 +1985,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'modify-delete-form',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./modify-delete-form.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./modify-delete-form.component.css */
       "./src/app/blog/modify-delete-form/modify-delete-form.component.css")).default]
@@ -2037,13 +2037,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var SocialMediaLinksComponent = function SocialMediaLinksComponent() {
       _classCallCheck(this, SocialMediaLinksComponent);
@@ -2053,7 +2053,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'social-media-links',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./social-media-links.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/social-media-links/social-media-links.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./social-media-links.component.css */
       "./src/app/blog/social-media-links/social-media-links.component.css")).default]
@@ -2105,13 +2105,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var CellPhoneImageComponent = function CellPhoneImageComponent() {
       _classCallCheck(this, CellPhoneImageComponent);
@@ -2123,7 +2123,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'cell-phone-image',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./cell-phone-image.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/cell-phone-image/cell-phone-image.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./cell-phone-image.component.css */
       "./src/app/home/cell-phone-image/cell-phone-image.component.css")).default]
@@ -2175,13 +2175,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var CountdownTimerComponent =
     /*#__PURE__*/
@@ -2189,7 +2189,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function CountdownTimerComponent() {
         _classCallCheck(this, CountdownTimerComponent);
 
-        this.countDown = new Date('February 29, 2020 06:00:25').getTime();
+        this.countDown = new Date('March 29, 2020 06:00:25').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
       }
@@ -2221,7 +2221,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'countdown-timer',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./countdown-timer.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/countdown-timer/countdown-timer.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./countdown-timer.component.css */
       "./src/app/home/countdown-timer/countdown-timer.component.css")).default]
@@ -2273,13 +2273,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var HomeComponent =
     /*#__PURE__*/
@@ -2300,7 +2300,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'home',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./home.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./home.component.css */
       "./src/app/home/home.component.css")).default]
@@ -2352,13 +2352,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var PromoComponent = function PromoComponent() {
       _classCallCheck(this, PromoComponent);
@@ -2370,7 +2370,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'promo',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./promo.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./promo.component.css */
       "./src/app/home/promo/promo.component.css")).default]
@@ -2394,7 +2394,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".quick-links-grid-container {\n    display: grid;\n    grid-template-columns: auto auto;\n    width: 100%;\n}\n.grid-item {\n    background-color: black;\n    border: 5px solid #fff;\n    padding: 20px;\n    text-align: center;\n}\na {\n    color: #fff;\n    text-decoration: none;\n    text-align: center;\n\n}\nh1, h2, h3 {\n    text-align: center;\n    color: #333;\n    font-weight: 100;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9xdWljay1saW5rcy9xdWljay1saW5rcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLGdDQUFnQztJQUNoQyxXQUFXO0FBQ2Y7QUFDQTtJQUNJLHVCQUF1QjtJQUN2QixzQkFBc0I7SUFDdEIsYUFBYTtJQUNiLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksV0FBVztJQUNYLHFCQUFxQjtJQUNyQixrQkFBa0I7O0FBRXRCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvcXVpY2stbGlua3MvcXVpY2stbGlua3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5xdWljay1saW5rcy1ncmlkLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0bztcbiAgICB3aWR0aDogMTAwJTtcbn1cbi5ncmlkLWl0ZW0ge1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgIGJvcmRlcjogNXB4IHNvbGlkICNmZmY7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5hIHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuXG59XG5oMSwgaDIsIGgzIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICMzMzM7XG4gICAgZm9udC13ZWlnaHQ6IDEwMDtcbn1cbiJdfQ== */";
+    __webpack_exports__["default"] = ".quick-links-grid-container {\n    display: grid;\n    grid-template-columns: auto auto;\n    width: 100%;\n}\n.grid-item {\n    background-color: black;\n    border: 5px solid #fff;\n    padding: 20px;\n    text-align: center;\n}\na {\n    color: #fff;\n    text-decoration: none;\n    text-align: center;\n\n}\nh1, h2 {\n    text-align: center;\n    color: #333;\n    font-weight: 100;\n    font-size: 1.2rem;\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9xdWljay1saW5rcy9xdWljay1saW5rcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLGdDQUFnQztJQUNoQyxXQUFXO0FBQ2Y7QUFDQTtJQUNJLHVCQUF1QjtJQUN2QixzQkFBc0I7SUFDdEIsYUFBYTtJQUNiLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksV0FBVztJQUNYLHFCQUFxQjtJQUNyQixrQkFBa0I7O0FBRXRCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9ob21lL3F1aWNrLWxpbmtzL3F1aWNrLWxpbmtzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucXVpY2stbGlua3MtZ3JpZC1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBhdXRvIGF1dG87XG4gICAgd2lkdGg6IDEwMCU7XG59XG4uZ3JpZC1pdGVtIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBib3JkZXI6IDVweCBzb2xpZCAjZmZmO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuYSB7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcblxufVxuaDEsIGgyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICMzMzM7XG4gICAgZm9udC13ZWlnaHQ6IDEwMDtcbiAgICBmb250LXNpemU6IDEuMnJlbTtcbn1cblxuIl19 */";
     /***/
   },
 
@@ -2422,28 +2422,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var QuickLinksComponent = function QuickLinksComponent() {
       _classCallCheck(this, QuickLinksComponent);
 
       this.Hours = 'Hours';
-      this.weekdays = 'Monday - Saturday: 9:00 AM - 6:30 PM';
+      this.weekdays = 'Monday - Saturday 9:00 AM - 6:30 PM';
       this.phone = '(314).669.4292';
-      this.closed = 'Sunday : Closed';
+      this.Closed = 'Sunday : Closed';
     };
 
     QuickLinksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'quick-links',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./quick-links.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/quick-links/quick-links.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./quick-links.component.css */
       "./src/app/home/quick-links/quick-links.component.css")).default]
@@ -2495,13 +2495,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var BookNowComponent = function BookNowComponent() {
       _classCallCheck(this, BookNowComponent);
@@ -2514,7 +2514,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'book-now',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./book-now.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/services/book-now/book-now.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./book-now.component.css */
       "./src/app/services/book-now/book-now.component.css")).default]
@@ -2566,57 +2566,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
+    "./node_modules/@angular/core/fesm2015/core.js");
 
-
-    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/platform-browser */
-    "../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-
-    var CellPhonePatientsComponent =
-    /*#__PURE__*/
-    function () {
-      function CellPhonePatientsComponent(sanitizer) {
-        _classCallCheck(this, CellPhonePatientsComponent);
-
-        this.sanitizer = sanitizer;
-        this.title = 'Repairing Services';
-        this.patients = ['iPhone SE', 'iPhone 6', 'iPhone 6+', 'iPhone 6s', 'iPhone 6s+', 'iPhone 7', 'iPhone 7+', 'iPhone 8', 'iPhone 8+'];
-        this.imageSources = ['https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg', 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712', 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129', 'https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682', 'https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951', 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712', 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129', 'https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544', 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972'];
-      }
-
-      _createClass(CellPhonePatientsComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          var _this3 = this;
-
-          this.images = this.imageSources.map(function (link) {
-            return _this3.sanitizer.bypassSecurityTrustResourceUrl(link);
-          });
-        }
-      }]);
-
-      return CellPhonePatientsComponent;
-    }();
-
-    CellPhonePatientsComponent.ctorParameters = function () {
-      return [{
-        type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]
-      }];
+    var CellPhonePatientsComponent = function CellPhonePatientsComponent() {
+      _classCallCheck(this, CellPhonePatientsComponent);
     };
 
     CellPhonePatientsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'cell-phone-patients',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./cell-phone-patients.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./cell-phone-patients.component.css */
       "./src/app/services/cell-phone-patients/cell-phone-patients.component.css")).default]
@@ -2668,13 +2634,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var ServicesComponent =
     /*#__PURE__*/
@@ -2695,7 +2661,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'services',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./services.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/services/services.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./services.component.css */
       "./src/app/services/services.component.css")).default]
@@ -2719,7 +2685,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "mat-toolbar {\n    position: fixed;\n    }\n    \n    .mat-toolbar {\n      height: 6rem;\n      background: rgb(4, 116, 192);\n      background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n      background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    }\n    \n    img {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 17rem;\n      height: 8rem;\n    }\n    \n    .spacer {\n      -webkit-box-flex: 1;\n              flex: 1 1 auto;\n    }\n    \n    .links {\n       display: none;\n     }\n    \n    .menu {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n              flex-direction: column;\n      padding-top: 6rem;\n    }\n    \n    .menu a {\n      color: grey;\n      width: 100%;\n      margin: 0 10px;\n      line-height: 70px;\n      text-decoration: none;\n      border-bottom: 1px solid #EAEAEB;\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: center;\n              justify-content: center;\n    }\n    \n    @media only screen and (min-width: 600px) {\n      .links {\n        display: -webkit-box;\n        display: flex;\n      }\n    \n      .links a {\n        color: grey;\n        margin: 0 1rem;\n        line-height: 70px;\n        text-decoration: none;\n      }\n    \n      .menu, mat-icon {\n        display: none;\n      }\n    }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdG9vbGJhci90b29sYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2Y7O0lBRUE7TUFDRSxZQUFZO01BQ1osNEJBQTRCO01BQzVCLGdMQUFrSDtNQUFsSCxrSEFBa0g7SUFDcEg7O0lBRUE7TUFDRSxlQUFlO01BQ2YsTUFBTTtNQUNOLE9BQU87TUFDUCxZQUFZO01BQ1osWUFBWTtJQUNkOztJQUVBO01BQ0UsbUJBQWM7Y0FBZCxjQUFjO0lBQ2hCOztJQUVBO09BQ0csYUFBYTtLQUNmOztJQUVEO01BQ0Usb0JBQWE7TUFBYixhQUFhO01BQ2IsNEJBQXNCO01BQXRCLDZCQUFzQjtjQUF0QixzQkFBc0I7TUFDdEIsaUJBQWlCO0lBQ25COztJQUVBO01BQ0UsV0FBVztNQUNYLFdBQVc7TUFDWCxjQUFjO01BQ2QsaUJBQWlCO01BQ2pCLHFCQUFxQjtNQUNyQixnQ0FBZ0M7TUFDaEMsb0JBQWE7TUFBYixhQUFhO01BQ2Isd0JBQXVCO2NBQXZCLHVCQUF1QjtJQUN6Qjs7SUFFQTtNQUNFO1FBQ0Usb0JBQWE7UUFBYixhQUFhO01BQ2Y7O01BRUE7UUFDRSxXQUFXO1FBQ1gsY0FBYztRQUNkLGlCQUFpQjtRQUNqQixxQkFBcUI7TUFDdkI7O01BRUE7UUFDRSxhQUFhO01BQ2Y7SUFDRiIsImZpbGUiOiJzcmMvYXBwL3Rvb2xiYXIvdG9vbGJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LXRvb2xiYXIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB9XG4gICAgXG4gICAgLm1hdC10b29sYmFyIHtcbiAgICAgIGhlaWdodDogNnJlbTtcbiAgICAgIGJhY2tncm91bmQ6IHJnYig0LCAxMTYsIDE5Mik7XG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoNCwgMTE2LCAxOTIsIDEpIDMyJSwgcmdiYSgxNywgMTE4LCAxOTYsIDEpIDQzJSwgcmdiYSgyMzYsIDE5MiwgMzksIDEpIDY2JSk7XG4gICAgfVxuICAgIFxuICAgIGltZyB7XG4gICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICB0b3A6IDA7XG4gICAgICBsZWZ0OiAwO1xuICAgICAgd2lkdGg6IDE3cmVtO1xuICAgICAgaGVpZ2h0OiA4cmVtO1xuICAgIH1cbiAgICBcbiAgICAuc3BhY2VyIHtcbiAgICAgIGZsZXg6IDEgMSBhdXRvO1xuICAgIH1cbiAgICBcbiAgICAubGlua3Mge1xuICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgIH1cbiAgICBcbiAgICAubWVudSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgIHBhZGRpbmctdG9wOiA2cmVtO1xuICAgIH1cbiAgICBcbiAgICAubWVudSBhIHtcbiAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBtYXJnaW46IDAgMTBweDtcbiAgICAgIGxpbmUtaGVpZ2h0OiA3MHB4O1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFQUVBRUI7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgfVxuICAgIFxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAwcHgpIHtcbiAgICAgIC5saW5rcyB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICB9XG4gICAgXG4gICAgICAubGlua3MgYSB7XG4gICAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgICBtYXJnaW46IDAgMXJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDcwcHg7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cbiAgICBcbiAgICAgIC5tZW51LCBtYXQtaWNvbiB7XG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICB9XG4gICAgfSJdfQ== */";
+    __webpack_exports__["default"] = "mat-toolbar {\n    position: fixed;\n    }\n    \n    .mat-toolbar {\n      height: 6rem;\n      background: rgb(4, 116, 192);\n      background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n      background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    }\n    \n    img {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 17rem;\n      height: 8rem;\n    }\n    \n    .spacer {\n      -webkit-box-flex: 1;\n              flex: 1 1 auto;\n    }\n    \n    .links {\n       display: none;\n     }\n    \n    .menu {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n              flex-direction: column;\n      padding-top: 6rem;\n    }\n    \n    .menu a {\n      color: grey;\n      width: 100%;\n      margin: 0 10px;\n      line-height: 70px;\n      text-decoration: none;\n      border-bottom: 1px solid #EAEAEB;\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: center;\n              justify-content: center;\n    }\n    \n    @media only screen and (min-width: 600px) {\n      .links {\n        display: -webkit-box;\n        display: flex;\n      }\n    \n      .links a {\n        color: grey;\n        margin: 0 1rem;\n        line-height: 70px;\n        text-decoration: none;\n      }\n    \n      .menu, mat-icon {\n        display: none;\n      }\n    }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdG9vbGJhci90b29sYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2Y7O0lBRUE7TUFDRSxZQUFZO01BQ1osNEJBQTRCO01BQzVCLGdMQUFrSDtNQUFsSCxrSEFBa0g7SUFDcEg7O0lBRUE7TUFDRSxlQUFlO01BQ2YsTUFBTTtNQUNOLE9BQU87TUFDUCxZQUFZO01BQ1osWUFBWTtJQUNkOztJQUVBO01BQ0UsbUJBQWM7Y0FBZCxjQUFjO0lBQ2hCOztJQUVBO09BQ0csYUFBYTtLQUNmOztJQUVEO01BQ0Usb0JBQWE7TUFBYixhQUFhO01BQ2IsNEJBQXNCO01BQXRCLDZCQUFzQjtjQUF0QixzQkFBc0I7TUFDdEIsaUJBQWlCO0lBQ25COztJQUVBO01BQ0UsV0FBVztNQUNYLFdBQVc7TUFDWCxjQUFjO01BQ2QsaUJBQWlCO01BQ2pCLHFCQUFxQjtNQUNyQixnQ0FBZ0M7TUFDaEMsb0JBQWE7TUFBYixhQUFhO01BQ2Isd0JBQXVCO2NBQXZCLHVCQUF1QjtJQUN6Qjs7SUFFQTtNQUNFO1FBQ0Usb0JBQWE7UUFBYixhQUFhO01BQ2Y7O01BRUE7UUFDRSxXQUFXO1FBQ1gsY0FBYztRQUNkLGlCQUFpQjtRQUNqQixxQkFBcUI7TUFDdkI7O01BRUE7UUFDRSxhQUFhO01BQ2Y7SUFDRiIsImZpbGUiOiJzcmMvYXBwL3Rvb2xiYXIvdG9vbGJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LXRvb2xiYXIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB9XG4gICAgXG4gICAgLm1hdC10b29sYmFyIHtcbiAgICAgIGhlaWdodDogNnJlbTtcbiAgICAgIGJhY2tncm91bmQ6IHJnYig0LCAxMTYsIDE5Mik7XG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoNCwgMTE2LCAxOTIsIDEpIDMyJSwgcmdiYSgxNywgMTE4LCAxOTYsIDEpIDQzJSwgcmdiYSgyMzYsIDE5MiwgMzksIDEpIDY2JSk7XG4gICAgfVxuICAgIFxuICAgIGltZyB7XG4gICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICB0b3A6IDA7XG4gICAgICBsZWZ0OiAwO1xuICAgICAgd2lkdGg6IDE3cmVtO1xuICAgICAgaGVpZ2h0OiA4cmVtO1xuICAgIH1cbiAgICBcbiAgICAuc3BhY2VyIHtcbiAgICAgIGZsZXg6IDEgMSBhdXRvO1xuICAgIH1cbiAgICBcbiAgICAubGlua3Mge1xuICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgIH1cbiAgICBcbiAgICAubWVudSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgIHBhZGRpbmctdG9wOiA2cmVtO1xuICAgIH1cbiAgICBcbiAgICAubWVudSBhIHtcbiAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBtYXJnaW46IDAgMTBweDtcbiAgICAgIGxpbmUtaGVpZ2h0OiA3MHB4O1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFQUVBRUI7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgfVxuICAgIFxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAwcHgpIHtcbiAgICAgIC5saW5rcyB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICB9XG4gICAgXG4gICAgICAubGlua3MgYSB7XG4gICAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgICBtYXJnaW46IDAgMXJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDcwcHg7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cbiAgICBcbiAgICAgIC5tZW51LCBtYXQtaWNvbiB7XG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICB9XG4gICAgfVxuIl19 */";
     /***/
   },
 
@@ -2747,13 +2713,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
 
     var ToolbarComponent = function ToolbarComponent() {
       _classCallCheck(this, ToolbarComponent);
@@ -2765,7 +2731,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selector: 'toolbar',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./toolbar.component.html */
-      "../node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html")).default,
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/toolbar/toolbar.component.html")).default,
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./toolbar.component.css */
       "./src/app/toolbar/toolbar.component.css")).default]
@@ -2797,7 +2763,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js"); // This file can be replaced during build by using the `fileReplacements` array.
+    "./node_modules/tslib/tslib.es6.js"); // This file can be replaced during build by using the `fileReplacements` array.
     // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
     // The list of file replacements can be found in `angular.json`.
 
@@ -2835,13 +2801,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
-    "../node_modules/tslib/tslib.es6.js");
+    "./node_modules/tslib/tslib.es6.js");
     /* harmony import */
 
 
     var hammerjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! hammerjs */
-    "../node_modules/hammerjs/hammer.js");
+    "./node_modules/hammerjs/hammer.js");
     /* harmony import */
 
 
@@ -2853,13 +2819,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/core */
-    "../node_modules/@angular/core/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/platform-browser-dynamic */
-    "../node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+    "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
     /* harmony import */
 
 

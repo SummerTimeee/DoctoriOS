@@ -311,7 +311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "    <div class=\"home\">\n        <h2>{{title}}</h2>\n        <img src=\"../../../assets/images/sales-flyer.jpg\" class=\"logo\">\n    </div>\n    ";
+    __webpack_exports__["default"] = "    <div id=\"slide\">\n        <h2>{{title}}</h2>\n        <img src=\"../../../assets/images/sales-flyer.jpg\">\n    </div>";
     /***/
   },
 
@@ -2189,7 +2189,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function CountdownTimerComponent() {
         _classCallCheck(this, CountdownTimerComponent);
 
-        this.countDown = new Date('March 29, 2020 06:00:25').getTime();
+        this.countDown = new Date('April 30, 2020 06:00:25').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
       }
@@ -2313,7 +2313,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\n.home {\n    padding: 20px;\n}\n\nh2 {\n    margin-top: 5rem;\n    text-align: center;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO0lBQ2Y7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvcHJvbW8vcHJvbW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgICBtYXJnaW46IGF1dG87XG4gICAgZGlzcGxheTogZmxleDtcbn1cblxuLmhvbWUge1xuICAgIHBhZGRpbmc6IDIwcHg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiA1cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAyLjhyZW07XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgIH1cbn1cblxuIl19 */";
+    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 5rem;\n    text-align: center;\n    font-size: 3rem;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n/* #slide {\n    width: 150px;\n    height: 150px;\n    position: absolute;\n} */\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 1rem;\n        color: #333;\n    }\n    #box {\n        width: 150px;\n        height: 150px;\n        position: absolute;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUNBOzs7O0dBSUc7O0FBRUg7SUFDSTtRQUNJLGVBQWU7UUFDZixXQUFXO0lBQ2Y7SUFDQTtRQUNJLFlBQVk7UUFDWixhQUFhO1FBQ2Isa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiA1cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDNyZW07XG59XG5cbmltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xufVxuLyogI3NsaWRlIHtcbiAgICB3aWR0aDogMTUwcHg7XG4gICAgaGVpZ2h0OiAxNTBweDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG59ICovXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICBjb2xvcjogIzMzMztcbiAgICB9XG4gICAgI2JveCB7XG4gICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgaGVpZ2h0OiAxNTBweDtcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIH1cbn1cblxuIl19 */";
     /***/
   },
 
@@ -2352,7 +2352,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var PromoComponent = function PromoComponent() {
       _classCallCheck(this, PromoComponent);
 
-      this.title = 'Deal Of The Month';
+      this.title = 'Deal Of The Month'; // ngOnInit() {
+      //   var pos = 0;
+      //   var slide = document.getElementById("slide");
+      //   var t = setInterval(move, 3);
+      //   function move() {
+      //     if (pos >= 450) {
+      //       clearInterval(t)
+      //     }
+      //     else {
+      //       pos += 1;
+      //       slide.style.left = pos + 'px';
+      //     }
+      //   }
+      // }
     };
 
     PromoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({

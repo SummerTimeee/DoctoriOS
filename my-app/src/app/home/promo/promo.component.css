@@ -5,14 +5,13 @@
 
 h2 {
     margin-top: 1rem;
-    text-align: center;
     font-size: 1.5rem;
 }
 
 img {
     width: 100%;
     height: auto;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 #slide {
     position: absolute;
@@ -25,6 +24,11 @@ img {
     }
     #slide {
         position: absolute;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        padding-top: 6rem;
     }
 }
 

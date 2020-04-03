@@ -23,7 +23,7 @@ export class PromoComponent {
         pos += 1;
         slide.style.left = pos + 'px';
       }
-      if (screen && screen.width < 500 && pos >= 120) {
+      if (screen && screen.width < 500 && pos >= 90) {
         clearInterval(t)
       }
       else {

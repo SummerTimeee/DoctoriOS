@@ -12,21 +12,18 @@ h2 {
 img {
     width: 100%;
     height: auto;
+    padding-top: 6rem;
 }
-/* #slide {
-    width: 150px;
-    height: 150px;
+#slide {
     position: absolute;
-} */
+}
 
 @media screen and (min-width: 1200px) {
     h2 {
         font-size: 2.8rem;
         color: #333;
     }
-    #box {
-        width: 150px;
-        height: 150px;
+    #slide {
         position: absolute;
     }
 }

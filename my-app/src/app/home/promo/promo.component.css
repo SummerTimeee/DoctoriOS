@@ -10,9 +10,10 @@ h2 {
 
 img {
     width: 100%;
-    height: inherit;
+    height: auto;
     padding-top: 3rem;
 }
+
 #slide {
     position: absolute;
 }
@@ -31,4 +32,3 @@ img {
         padding-top: 6rem;
     }
 }
-

@@ -2313,7 +2313,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    text-align: center;\n    font-size: 1.5rem;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n    padding-top: 6rem;\n}\n\n#slide {\n    position: absolute;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n    }\n    #slide {\n        position: absolute;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixpQkFBaUI7QUFDckI7O0FBQ0E7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO0lBQ2Y7SUFDQTtRQUNJLGtCQUFrQjtJQUN0QjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xufVxuXG5oMiB7XG4gICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAxLjVyZW07XG59XG5cbmltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmctdG9wOiA2cmVtO1xufVxuI3NsaWRlIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAyLjhyZW07XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgIH1cbiAgICAjc2xpZGUge1xuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgfVxufVxuXG4iXX0= */";
+    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n    padding-top: 3rem;\n}\n\n#slide {\n    position: absolute;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n    }\n    #slide {\n        position: absolute;\n    }\n    img {\n        width: 100%;\n        height: auto;\n        padding-top: 6rem;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLGlCQUFpQjtBQUNyQjs7QUFDQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO1FBQ2pCLFdBQVc7SUFDZjtJQUNBO1FBQ0ksa0JBQWtCO0lBQ3RCO0lBQ0E7UUFDSSxXQUFXO1FBQ1gsWUFBWTtRQUNaLGlCQUFpQjtJQUNyQjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xufVxuXG5oMiB7XG4gICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICBmb250LXNpemU6IDEuNXJlbTtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgcGFkZGluZy10b3A6IDNyZW07XG59XG4jc2xpZGUge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDIuOHJlbTtcbiAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgfVxuICAgICNzbGlkZSB7XG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB9XG4gICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgcGFkZGluZy10b3A6IDZyZW07XG4gICAgfVxufVxuXG4iXX0= */";
     /***/
   },
 
@@ -2373,7 +2373,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               slide.style.left = pos + 'px';
             }
 
-            if (screen && screen.width < 500 && pos >= 120) {
+            if (screen && screen.width < 500 && pos >= 90) {
               clearInterval(t);
             } else {
               pos += 1;
@@ -2454,7 +2454,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _classCallCheck(this, QuickLinksComponent);
 
       this.Hours = 'Hours';
-      this.weekdays = 'Monday - Saturday 9:00 AM - 6:30 PM';
+      this.weekdays = 'Monday - Saturday 9:00 AM - 7:00 PM';
       this.phone = '(314).669.4292';
       this.Closed = 'Sunday : Closed';
     };

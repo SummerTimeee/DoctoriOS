@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <form></form>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <form></form>\n</div>\n");
 
 /***/ }),
 
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<iframe id=\"JotFormIFrame-83596360595167\" title=\"Online Appointment Request \" onload=\"window.parent.scrollTo(0,0)\"\n    allowtransparency=\"true\" allowfullscreen=\"true\" allow=\"geolocation; microphone; camera\"\n    src=\"https://form.jotform.com/summer4414/online-appointment-request-\" frameborder=\"0\" style=\"\n    min-width: 100%;\n    height:539px;\n    border:none;\" scrolling=\"no\">\n</iframe>\n<script type=\"text/javascript\">\n    var ifr = document.getElementById(\"JotFormIFrame-83596360595167\");\n    if (window.location.href && window.location.href.indexOf(\"?\") > -1) {\n        var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1);\n        if (ifr && get.length > 0) {\n            var src = ifr.src;\n            src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src + \"?\" + get;\n            ifr.src = src;\n        }\n    }\n    window.handleIFrameMessage = function (e) {\n        if (typeof e.data === 'object') { return; }\n        var args = e.data.split(\":\");\n        if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[(args.length - 1)]); } else { iframe = document.getElementById(\"JotFormIFrame\"); }\n        if (!iframe) { return; }\n        switch (args[0]) {\n            case \"scrollIntoView\":\n                iframe.scrollIntoView();\n                break;\n            case \"setHeight\":\n                iframe.style.height = args[1] + \"px\";\n                break;\n            case \"collapseErrorPage\":\n                if (iframe.clientHeight > window.innerHeight) {\n                    iframe.style.height = window.innerHeight + \"px\";\n                }\n                break;\n            case \"reloadPage\":\n                window.location.reload();\n                break;\n            case \"loadScript\":\n                var src = args[1];\n                if (args.length > 3) {\n                    src = args[1] + ':' + args[2];\n                }\n                var script = document.createElement('script');\n                script.src = src;\n                script.type = 'text/javascript';\n                document.body.appendChild(script);\n                break;\n            case \"exitFullscreen\":\n                if (window.document.exitFullscreen) window.document.exitFullscreen();\n                else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen();\n                else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen();\n                else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen();\n                else if (window.document.msExitFullscreen) window.document.msExitFullscreen();\n                break;\n        }\n        var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false;\n        if (isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) {\n            var urls = { \"docurl\": encodeURIComponent(document.URL), \"referrer\": encodeURIComponent(document.referrer) };\n            iframe.contentWindow.postMessage(JSON.stringify({ \"type\": \"urls\", \"value\": urls }), \"*\");\n        }\n    };\n    if (window.addEventListener) {\n        window.addEventListener(\"message\", handleIFrameMessage, false);\n    } else if (window.attachEvent) {\n        window.attachEvent(\"onmessage\", handleIFrameMessage);\n    }\n</script>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n    <iframe\n    id=\"JotFormIFrame-91358577925169\"\n    title=\"Cell Phone Repair Appointment\"\n    onload=\"window.parent.scrollTo(0,0)\"\n    allowtransparency=\"true\"\n    allowfullscreen=\"true\"\n    allow=\"geolocation; microphone; camera\"\n    src=\"https://form.jotform.com/91358577925169\"\n    frameborder=\"0\"\n    style=\"\n    min-width: 100%;\n    height:539px;\n    border:none;\"\n    scrolling=\"no\"\n  >\n  </iframe>\n  <script type=\"text/javascript\">\n    var ifr = document.getElementById(\"JotFormIFrame-91358577925169\");\n    if(window.location.href && window.location.href.indexOf(\"?\") > -1) {\n      var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1);\n      if(ifr && get.length > 0) {\n        var src = ifr.src;\n        src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src  + \"?\" + get;\n        ifr.src = src;\n      }\n    }\n    window.handleIFrameMessage = function(e) {\n      if (typeof e.data === 'object') { return; }\n      var args = e.data.split(\":\");\n      if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[(args.length - 1)]); } else { iframe = document.getElementById(\"JotFormIFrame\"); }\n      if (!iframe) { return; }\n      switch (args[0]) {\n        case \"scrollIntoView\":\n          iframe.scrollIntoView();\n          break;\n        case \"setHeight\":\n          iframe.style.height = args[1] + \"px\";\n          break;\n        case \"collapseErrorPage\":\n          if (iframe.clientHeight > window.innerHeight) {\n            iframe.style.height = window.innerHeight + \"px\";\n          }\n          break;\n        case \"reloadPage\":\n          window.location.reload();\n          break;\n        case \"loadScript\":\n          var src = args[1];\n          if (args.length > 3) {\n              src = args[1] + ':' + args[2];\n          }\n          var script = document.createElement('script');\n          script.src = src;\n          script.type = 'text/javascript';\n          document.body.appendChild(script);\n          break;\n        case \"exitFullscreen\":\n          if      (window.document.exitFullscreen)        window.document.exitFullscreen();\n          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();\n          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();\n          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();\n          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();\n          break;\n      }\n      var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false;\n      if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) {\n        var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)};\n        iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\");\n      }\n    };\n    if (window.addEventListener) {\n      window.addEventListener(\"message\", handleIFrameMessage, false);\n    } else if (window.attachEvent) {\n      window.attachEvent(\"onmessage\", handleIFrameMessage);\n    }\n    </script>");
 
 /***/ }),
 
@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("    <div id=\"slide\">\n        <h2>{{title}}</h2>\n        <img src=\"../../../assets/images/sales-flyer.jpg\">\n    </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("    <div id=\"slide\">\n        <h2>{{title}}</h2>\n    </div>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">");
 
 /***/ }),
 
@@ -1300,7 +1300,7 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 5rem;\n    text-align: center;\n    font-size: 3rem;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n/* #slide {\n    width: 150px;\n    height: 150px;\n    position: absolute;\n} */\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 1rem;\n        color: #333;\n    }\n    #box {\n        width: 150px;\n        height: 150px;\n        position: absolute;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUNBOzs7O0dBSUc7O0FBRUg7SUFDSTtRQUNJLGVBQWU7UUFDZixXQUFXO0lBQ2Y7SUFDQTtRQUNJLFlBQVk7UUFDWixhQUFhO1FBQ2Isa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiA1cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDNyZW07XG59XG5cbmltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xufVxuLyogI3NsaWRlIHtcbiAgICB3aWR0aDogMTUwcHg7XG4gICAgaGVpZ2h0OiAxNTBweDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG59ICovXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICBjb2xvcjogIzMzMztcbiAgICB9XG4gICAgI2JveCB7XG4gICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgaGVpZ2h0OiAxNTBweDtcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIH1cbn1cblxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = (":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    text-align: center;\n    font-size: 1.5rem;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n    padding-top: 6rem;\n}\n\n#slide {\n    position: absolute;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n    }\n    #slide {\n        position: absolute;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixpQkFBaUI7QUFDckI7O0FBQ0E7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO0lBQ2Y7SUFDQTtRQUNJLGtCQUFrQjtJQUN0QjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xufVxuXG5oMiB7XG4gICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAxLjVyZW07XG59XG5cbmltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmctdG9wOiA2cmVtO1xufVxuI3NsaWRlIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAyLjhyZW07XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgIH1cbiAgICAjc2xpZGUge1xuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgfVxufVxuXG4iXX0= */");
 
 /***/ }),
 
@@ -1321,20 +1321,27 @@ __webpack_require__.r(__webpack_exports__);
 let PromoComponent = class PromoComponent {
     constructor() {
         this.title = 'Deal Of The Month';
-        // ngOnInit() {
-        //   var pos = 0;
-        //   var slide = document.getElementById("slide");
-        //   var t = setInterval(move, 3);
-        //   function move() {
-        //     if (pos >= 450) {
-        //       clearInterval(t)
-        //     }
-        //     else {
-        //       pos += 1;
-        //       slide.style.left = pos + 'px';
-        //     }
-        //   }
-        // }
+    }
+    ngOnInit() {
+        var pos = 0;
+        var slide = document.getElementById("slide");
+        var t = setInterval(move, 8);
+        function move() {
+            if (screen && screen.width > 1000 && pos >= 450) {
+                clearInterval(t);
+            }
+            else {
+                pos += 1;
+                slide.style.left = pos + 'px';
+            }
+            if (screen && screen.width < 500 && pos >= 120) {
+                clearInterval(t);
+            }
+            else {
+                pos += 1;
+                slide.style.left = pos + 'px';
+            }
+        }
     }
 };
 PromoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([

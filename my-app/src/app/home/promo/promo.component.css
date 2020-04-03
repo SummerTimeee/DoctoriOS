@@ -10,7 +10,7 @@ h2 {
 
 img {
     width: 100%;
-    height: auto;
+    height: inherit;
     padding-top: 3rem;
 }
 #slide {

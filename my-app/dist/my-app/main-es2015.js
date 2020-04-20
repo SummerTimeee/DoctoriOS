@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("    <div id=\"slide\">\n        <h2>{{title}}</h2>\n    </div>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h2>{{title}}</h2>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">\n</div>");
 
 /***/ }),
 
@@ -1300,7 +1300,7 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n}\n\nimg {\n    width: 100%;\n    height: inherit;\n    padding-top: 3rem;\n}\n\n#slide {\n    position: absolute;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n    }\n    #slide {\n        position: absolute;\n    }\n    img {\n        width: 100%;\n        height: auto;\n        padding-top: 6rem;\n    }\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjs7QUFDQTtJQUNJLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO1FBQ2pCLFdBQVc7SUFDZjtJQUNBO1FBQ0ksa0JBQWtCO0lBQ3RCO0lBQ0E7UUFDSSxXQUFXO1FBQ1gsWUFBWTtRQUNaLGlCQUFpQjtJQUNyQjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xufVxuXG5oMiB7XG4gICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICBmb250LXNpemU6IDEuNXJlbTtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGluaGVyaXQ7XG4gICAgcGFkZGluZy10b3A6IDNyZW07XG59XG4jc2xpZGUge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDIuOHJlbTtcbiAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgfVxuICAgICNzbGlkZSB7XG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB9XG4gICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgcGFkZGluZy10b3A6IDZyZW07XG4gICAgfVxufVxuXG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n    text-align: center;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n        text-align: center;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO1FBQ1gsa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAyLjhyZW07XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgfVxufSJdfQ== */");
 
 /***/ }),
 
@@ -1323,25 +1323,25 @@ let PromoComponent = class PromoComponent {
         this.title = 'Deal Of The Month';
     }
     ngOnInit() {
-        var pos = 0;
-        var slide = document.getElementById("slide");
-        var t = setInterval(move, 8);
-        function move() {
-            if (screen && screen.width > 1000 && pos >= 450) {
-                clearInterval(t);
-            }
-            else {
-                pos += 1;
-                slide.style.left = pos + 'px';
-            }
-            if (screen && screen.width < 500 && pos >= 90) {
-                clearInterval(t);
-            }
-            else {
-                pos += 1;
-                slide.style.left = pos + 'px';
-            }
-        }
+        // var pos = 0;
+        // var slide = document.getElementById("slide");
+        // var t = setInterval(move, 8);
+        // function move() {
+        //   if (screen && screen.width > 1000 && pos >= 450 ) {
+        //     clearInterval(t)
+        //   }
+        //   else {
+        //     pos += 1;
+        //     slide.style.left = pos + 'px';
+        //   }
+        //   if (screen && screen.width < 500 && pos >= 90) {
+        //     clearInterval(t)
+        //   }
+        //   else {
+        //     pos += 1;
+        //     slide.style.left = pos + 'px'
+        //   }
+        // }
     }
 };
 PromoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([

@@ -6,29 +6,18 @@
 h2 {
     margin-top: 1rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 img {
     width: 100%;
     height: auto;
-    padding-top: 3rem;
-}
-
-#slide {
-    position: absolute;
 }
 
 @media screen and (min-width: 1200px) {
     h2 {
         font-size: 2.8rem;
         color: #333;
-    }
-    #slide {
-        position: absolute;
-    }
-    img {
-        width: 100%;
-        height: auto;
-        padding-top: 6rem;
+        text-align: center;
     }
 }

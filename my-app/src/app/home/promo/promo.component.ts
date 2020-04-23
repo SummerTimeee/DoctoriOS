@@ -13,8 +13,16 @@ export class PromoComponent implements OnInit {
   ngOnInit() {
 
     var text = this.title;
-    var splitText= text.split('');
+    var splitText = text.split('');
+    console.log(splitText)
+    for (let i = 0; i < splitText.length; i++) {
+      text += "<span>" + splitText[i] + "</span>";
 
-    console.log(splitText);
+    }
+
+
+
   }
-};
+
+
+}

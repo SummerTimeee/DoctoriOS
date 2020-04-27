@@ -1,13 +1,22 @@
 import { Component } from '@angular/core';
+import { transition, trigger, state, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'about-us',
   templateUrl: './about-us.component.html',
-  styleUrls: ['./about-us.component.css']
+  styleUrls: ['./about-us.component.css'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0 }),
+        animate(4500)
+      ])
+    ])
+  ]
 })
-export class AboutUsComponent  {
+export class AboutUsComponent {
   title = 'LET US INTRODUCE OURSELVES';
   header = '#1 Afforable Phone Repair Service';
   about = 'About Us';
-  
+
 }

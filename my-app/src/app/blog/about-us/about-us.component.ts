@@ -8,7 +8,7 @@ import { transition, trigger, state, style, animate } from '@angular/animations'
   animations: [
     trigger('fade', [
       transition('void => *', [
-        style({ letterSpacing: '10px' ,opacity: 1 }),
+        style({ letterSpacing: '10px', opacity: 1 }),
         animate(5000)
       ])
     ])

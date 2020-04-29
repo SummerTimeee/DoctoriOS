@@ -1,8 +1,7 @@
 <div>
     <h1>{{ title }} </h1>
 </div>
-<div *ngFor="let phone of phones">
-    <!-- <div>
+<!-- <div>
         <ul class="accordion">
             <li class="ip8">
                 <div class="heading">{{ phone.phoneName }}</div>
@@ -14,21 +13,21 @@
             </li>
         </ul>
     </div> -->
-
-    <div>
+<div *ngFor="let phone of phones">
+    <img src= {{phones.image}} />
         <ul class="accordion">
-            <li class="ip8">
+            <li>
                 <div class="heading">{{ phone.phoneName }}</div>
                 <div class="description">
                     <h2> {{ phone.phoneName }}</h2>
                     <p>{{ phone.repairPrice }}</p>
                     <h4>{{ phone.oldRepairPrice }}</h4>
-                    {{ phone.image}}
-                    </div>
+                    <h1> {{ phone.imageUrl }}</h1>
+                </div>
             </li>
         </ul>
-    </div>
-    <!-- <div>
+</div>
+<!-- <div>
         <ul class="accordion">
             <li class="ip7">
                 <div class="heading">iPhone 7+</div>
@@ -124,4 +123,3 @@
             </li>
         </ul>
     </div> -->
-</div>

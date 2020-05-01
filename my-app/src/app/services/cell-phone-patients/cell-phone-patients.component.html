@@ -14,7 +14,7 @@
         </ul>
     </div> -->
 <div *ngFor="let phone of phones">
-    <img src= {{phones.image}} />
+    <div [ngStyle]="{ 'background-image': phone.image, 'background-repeat': 'no-repeat'}">
         <ul class="accordion">
             <li>
                 <div class="heading">{{ phone.phoneName }}</div>
@@ -22,10 +22,10 @@
                     <h2> {{ phone.phoneName }}</h2>
                     <p>{{ phone.repairPrice }}</p>
                     <h4>{{ phone.oldRepairPrice }}</h4>
-                    <h1> {{ phone.imageUrl }}</h1>
                 </div>
             </li>
         </ul>
+        </div>
 </div>
 <!-- <div>
         <ul class="accordion">

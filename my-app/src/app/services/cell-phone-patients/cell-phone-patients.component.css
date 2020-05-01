@@ -126,7 +126,7 @@ ul.accordion li .description a:hover {
     text-decoration: underline;
 }
 
-/* ul.accordion li.ip8 {
+ul.accordion li.ip8 {
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
 }
 
@@ -164,7 +164,7 @@ ul.accordion li.ipSe {
 
 ul.accordion li.ipX {
     background-image: url(https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._SY445_.jpg);
-} */
+}
 
 @media screen and (max-width: 500px) {
 
@@ -281,7 +281,7 @@ ul.accordion li.ipX {
         text-decoration: none;
         color: #888;
     }
-    /* ul.accordion li .description a:hover {
+    ul.accordion li .description a:hover {
         color: #333;
         text-decoration: underline;
     }
@@ -314,5 +314,5 @@ ul.accordion li.ipX {
     }
     ul.accordion li.ipX {
         background-image: url(https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._SY445_.jpg);
-    } */
+    }
 }

@@ -1,8 +1,8 @@
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
@@ -51,27 +51,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<p>accessories works!</p>\n";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html":
-  /*!**********************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html ***!
-    \**********************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppAccessoriesComingSoonComingSoonComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<p>coming-soon works!</p>\n";
+    __webpack_exports__["default"] = "<img src=\"../../assets/images/coming-soon2.jpeg\">";
     /***/
   },
 
@@ -151,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h1>{{ title }} </h1>\n    <h5>{{ header }}</h5>\n</div>\n<h1>{{ about }}</h1>\n<h4>What we do</h4>\n<p>Here at Doctor iOS we repair your phone screens at a very affordable price to help you save money. Get low-cost\n    phone repair right at your door step because we even come to you.</p>\n<h4>Why we do it</h4>\n<p>Don't break your phone screen then break the bank! We strive to save you money. Expenses for a new cell phone often is over $500,\n    while an iPhone screen replacement or other common cell phone repairs cost more than $100 on average.</p>";
+    __webpack_exports__["default"] = "<div>\n    <h1>{{ title }} </h1>\n    <h5>{{ header }}</h5>\n</div>\n<h1>{{ about }}</h1>\n<h4 @fade>What we do</h4>\n<p>Here at Doctor iOS we repair your phone screens at a very affordable price to help you save money. Get low-cost\n    phone repair right at your door step because we even come to you.</p>\n<h4 @fade>Why we do it</h4>\n<p>We strive to save you money. Expenses for a new cell phone often is over $500, while an iPhone screen replacement \n    or other common cell phone repairs cost more than $300 on average. Don't break your phone screen then break the bank!</p>";
     /***/
   },
 
@@ -231,7 +211,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<a href=\"https://www.facebook.com/doctoriOS.repair/\">\n    <img src=\"https://www.stlukeseye.com/wp-content/uploads/2018/03/like-us-on-facebook.jpg\">\n</a>";
+    __webpack_exports__["default"] = "<!-- <a href=\"https://www.facebook.com/doctoriOS.repair/\">\n    <img src=\"https://www.stlukeseye.com/wp-content/uploads/2018/03/like-us-on-facebook.jpg\">\n</a> -->";
     /***/
   },
 
@@ -251,7 +231,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n";
+    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n<img class=\"logo\" src=\"../../../assets/images/phone-repair.jpg\">\n";
     /***/
   },
 
@@ -311,7 +291,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h2>{{title}}</h2>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">\n</div>";
+    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">\n</div>";
     /***/
   },
 
@@ -331,7 +311,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"quick-links-grid-container\">\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/services']\">SERVICES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/book']\">BOOK</a></div>\n    </div>\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/accesories']\">ACCESSORIES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/blog']\">BLOG</a></div>\n    </div>\n</div>\n\n<div>\n    <h1> St.Louis<br> & <br>East Saint Louis Area</h1>\n    <h2> <i class=\"fas fa-phone-alt\"></i>{{ phone }}</h2>\n    <h1>{{ Hours }}</h1>\n    <h2>{{ weekdays }}</h2>\n    <h2>{{ Closed }}</h2>\n    <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199412.4868559348!2d-90.38389084380192!3d38.6530165071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.+Louis%2C+MO!5e0!3m2!1sen!2sus!4v1547169660021\"\n        frameborder=\"0\" style=\"border:0; width: 100%; height: 500px;\" allowfullscreen=\"\">\n    </iframe>\n</div>";
+    __webpack_exports__["default"] = "<div class=\"quick-links-grid-container\">\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/services']\">SERVICES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/book']\">BOOK</a></div>\n    </div>\n    <div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/accessories']\">ACCESSORIES</a></div>\n        <div class=\"grid-item\"> <a [routerLink]=\"['/blog']\">BLOG</a></div>\n    </div>\n</div>\n\n<div>\n    <h1> St.Louis<br> & <br>East Saint Louis Area</h1>\n    <h2> <i class=\"fas fa-phone-alt\"></i>{{ phone }}</h2>\n    <h1>{{ Hours }}</h1>\n    <h2>{{ weekdays }}</h2>\n    <h2>{{ Closed }}</h2>\n    <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199412.4868559348!2d-90.38389084380192!3d38.6530165071809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.+Louis%2C+MO!5e0!3m2!1sen!2sus!4v1547169660021\"\n        frameborder=\"0\" style=\"border:0; width: 100%; height: 500px;\" allowfullscreen=\"\">\n    </iframe>\n</div>";
     /***/
   },
 
@@ -371,7 +351,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h1>{{ title }} </h1>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip8\">\n            <div class=\"heading\">iPhone 8+</div>\n            <div class=\"description\">\n                <h2>iPhone 8+</h2>\n                <p>Repair Price - US $75.00</p>\n                <h4>Repair Price - US $90.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip8small\">\n            <div class=\"heading\">iPhone 8</div>\n            <div class=\"description\">\n                <h2>iPhone 8</h2>\n                <p>Repair Price - US $70.00</p>\n                <h4>Repair Price - US $85.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip7\">\n            <div class=\"heading\">iPhone 7+</div>\n            <div class=\"description\">\n                <h2>iPhone 7+</h2>\n                <p>Repair Price - US $75.00</p>\n                <h4>Repair Price - US $90.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip7small\">\n            <div class=\"heading\">iPhone 7</div>\n            <div class=\"description\">\n                <h2>iPhone 7</h2>\n                <p>Repair Price - US $70.00</p>\n                <h4>Repair Price - US $85.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6sPlus\">\n            <div class=\"heading\">iPhone 6s+</div>\n            <div class=\"description\">\n                <h2>iPhone 6s+</h2>\n                <p>Repair Price - US $65.00</p>\n                <h4>Repair Price - US $80.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6s\">\n            <div class=\"heading\">iPhone 6s</div>\n            <div class=\"description\">\n                <h2>iPhone 6s</h2>\n                <p>Repair Price - US $60.00</p>\n                <h4>Repair Price - US $75.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6Plus\">\n            <div class=\"heading\">iPhone 6+</div>\n            <div class=\"description\">\n                <h2>iPhone 6+</h2>\n                <p>Repair Price - US $65.00</p>\n                <h4>Repair Price - US $80.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6\">\n            <div class=\"heading\">iPhone 6</div>\n            <div class=\"description\">\n                <h2>iPhone 6</h2>\n                <p>Repair Price - US $55.00</p>\n                <h4>Repair Price - US $70.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ipSe\">\n            <div class=\"heading\">iPhone SE</div>\n            <div class=\"description\">\n                <h2>iPhone SE</h2>\n                <p>Repair Price - US $50.00</p>\n                <h4>Repair Price - US $65.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ipX\">\n            <div class=\"heading\">iPhone X</div>\n            <div class=\"description\">\n                <h2>iPhone X</h2>\n                <p>Repair Price - US $140.00</p>\n                <h4>Repair Price - US $165.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n";
+    __webpack_exports__["default"] = "<div>\n    <h1>{{ title }} </h1>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip8\">\n            <div class=\"heading\"></div>\n            <div class=\"description\">\n                <h2>iPhone 8+</h2>\n                <p>Repair Price - US $75.00</p>\n                <h4>Repair Price - US $90.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip8small\">\n            <div class=\"heading\">iPhone 8</div>\n            <div class=\"description\">\n                <h2>iPhone 8</h2>\n                <p>Repair Price - US $70.00</p>\n                <h4>Repair Price - US $85.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip7\">\n            <div class=\"heading\">iPhone 7+</div>\n            <div class=\"description\">\n                <h2>iPhone 7+</h2>\n                <p>Repair Price - US $75.00</p>\n                <h4>Repair Price - US $90.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip7small\">\n            <div class=\"heading\">iPhone 7</div>\n            <div class=\"description\">\n                <h2>iPhone 7</h2>\n                <p>Repair Price - US $70.00</p>\n                <h4>Repair Price - US $85.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6sPlus\">\n            <div class=\"heading\">iPhone 6s+</div>\n            <div class=\"description\">\n                <h2>iPhone 6s+</h2>\n                <p>Repair Price - US $65.00</p>\n                <h4>Repair Price - US $80.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6s\">\n            <div class=\"heading\">iPhone 6s</div>\n            <div class=\"description\">\n                <h2>iPhone 6s</h2>\n                <p>Repair Price - US $60.00</p>\n                <h4>Repair Price - US $75.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6Plus\">\n            <div class=\"heading\">iPhone 6+</div>\n            <div class=\"description\">\n                <h2>iPhone 6+</h2>\n                <p>Repair Price - US $65.00</p>\n                <h4>Repair Price - US $80.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ip6\">\n            <div class=\"heading\">iPhone 6</div>\n            <div class=\"description\">\n                <h2>iPhone 6</h2>\n                <p>Repair Price - US $55.00</p>\n                <h4>Repair Price - US $70.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ipSe\">\n            <div class=\"heading\">iPhone SE</div>\n            <div class=\"description\">\n                <h2>iPhone SE</h2>\n                <p>Repair Price - US $50.00</p>\n                <h4>Repair Price - US $65.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>\n<div>\n    <ul class=\"accordion\">\n        <li class=\"ipX\">\n            <div class=\"heading\">iPhone X</div>\n            <div class=\"description\">\n                <h2>iPhone X</h2>\n                <p>Repair Price - US $135.00</p>\n                <h4>Repair Price - US $165.00</h4>\n            </div>\n        </li>\n    </ul>\n</div>";
     /***/
   },
 
@@ -1024,7 +1004,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FjY2Vzc29yaWVzL2FjY2Vzc29yaWVzLmNvbXBvbmVudC5jc3MifQ== */";
+    __webpack_exports__["default"] = "img {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWNjZXNzb3JpZXMvYWNjZXNzb3JpZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2FjY2Vzc29yaWVzL2FjY2Vzc29yaWVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xuICAgIHdpZHRoOiAxMDAlO1xufSJdfQ== */";
     /***/
   },
 
@@ -1060,20 +1040,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var AccessoriesComponent =
-    /*#__PURE__*/
-    function () {
-      function AccessoriesComponent() {
-        _classCallCheck(this, AccessoriesComponent);
-      }
-
-      _createClass(AccessoriesComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return AccessoriesComponent;
-    }();
+    var AccessoriesComponent = function AccessoriesComponent() {
+      _classCallCheck(this, AccessoriesComponent);
+    };
 
     AccessoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-accessories',
@@ -1084,85 +1053,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       /*! ./accessories.component.css */
       "./src/app/accessories/accessories.component.css")).default]
     })], AccessoriesComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/accessories/coming-soon/coming-soon.component.css":
-  /*!*******************************************************************!*\
-    !*** ./src/app/accessories/coming-soon/coming-soon.component.css ***!
-    \*******************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppAccessoriesComingSoonComingSoonComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FjY2Vzc29yaWVzL2NvbWluZy1zb29uL2NvbWluZy1zb29uLmNvbXBvbmVudC5jc3MifQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/accessories/coming-soon/coming-soon.component.ts":
-  /*!******************************************************************!*\
-    !*** ./src/app/accessories/coming-soon/coming-soon.component.ts ***!
-    \******************************************************************/
-
-  /*! exports provided: ComingSoonComponent */
-
-  /***/
-  function srcAppAccessoriesComingSoonComingSoonComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "ComingSoonComponent", function () {
-      return ComingSoonComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var ComingSoonComponent =
-    /*#__PURE__*/
-    function () {
-      function ComingSoonComponent() {
-        _classCallCheck(this, ComingSoonComponent);
-      }
-
-      _createClass(ComingSoonComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return ComingSoonComponent;
-    }();
-
-    ComingSoonComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-coming-soon',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./coming-soon.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/accessories/coming-soon/coming-soon.component.html")).default,
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./coming-soon.component.css */
-      "./src/app/accessories/coming-soon/coming-soon.component.css")).default]
-    })], ComingSoonComponent);
     /***/
   },
 
@@ -1227,6 +1117,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./services/services.component */
     "./src/app/services/services.component.ts");
+    /* harmony import */
+
+
+    var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./accessories/accessories.component */
+    "./src/app/accessories/accessories.component.ts");
 
     var routes = [{
       path: '',
@@ -1243,6 +1139,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     }, {
       path: 'services',
       component: _services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"]
+    }, {
+      path: 'accessories',
+      component: _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__["AccessoriesComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1507,19 +1406,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
     /*! ./accessories/accessories.component */
     "./src/app/accessories/accessories.component.ts");
-    /* harmony import */
-
-
-    var _accessories_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
-    /*! ./accessories/coming-soon/coming-soon.component */
-    "./src/app/accessories/coming-soon/coming-soon.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _toolbar_toolbar_component__WEBPACK_IMPORTED_MODULE_6__["ToolbarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__["CountdownTimerComponent"], _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__["CellPhoneImageComponent"], _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__["QuickLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__["BlogComponent"], _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__["CarouselComponent"], _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"], _blog_modify_delete_form_modify_delete_form_component__WEBPACK_IMPORTED_MODULE_20__["ModifyDeleteFormComponent"], _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__["SocialMediaLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__["AppointmentPageComponent"], _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__["FormComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_23__["ServicesComponent"], _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__["BookNowComponent"], _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__["CellPhonePatientsComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__["AccessoriesComponent"], _accessories_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_27__["ComingSoonComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _toolbar_toolbar_component__WEBPACK_IMPORTED_MODULE_6__["ToolbarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__["CountdownTimerComponent"], _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__["CellPhoneImageComponent"], _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__["QuickLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__["BlogComponent"], _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__["CarouselComponent"], _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"], _blog_modify_delete_form_modify_delete_form_component__WEBPACK_IMPORTED_MODULE_20__["ModifyDeleteFormComponent"], _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__["SocialMediaLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__["AppointmentPageComponent"], _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__["FormComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_23__["ServicesComponent"], _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__["BookNowComponent"], _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__["CellPhonePatientsComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__["AccessoriesComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatNativeDateModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatSelectModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -1679,7 +1572,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "div {\n    background-image: url(https://i.pinimg.com/originals/47/c8/89/47c88962c0c13003dc6e38216869e5f8.jpg);\n    background-repeat: no-repeat;\n    background-position: 100%;\n    background-position: center;\n    background-size: cover;\n    height: 100%;\n}\n\nh5, h1 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n}\n\np {\n    font-weight: 300;\n    line-height: 1.4;\n    margin-bottom: 1rem;\n}\n\nh1, h5 {\n    text-align: center;\n    color: #2256ce;\n    font-size: 2rem;\n    font-weight: 500;\n}\n\nh5 {\n    font-size: 1.3rem;\n    padding-top: 23rem;\n}\n\nh4 {\n    color: #2256ce;\n}\n\n@media screen and (min-width:1200px) {\n    h4 {\n        color: #2256ce;\n        font-size: 2rem;\n    }\n    h1 {\n        text-align: center;\n        color: #2256ce;\n        font-size: 2rem;\n        font-weight: 500;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9hYm91dC11cy9hYm91dC11cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUdBQW1HO0lBQ25HLDRCQUE0QjtJQUM1Qix5QkFBeUI7SUFDekIsMkJBQTJCO0lBQzNCLHNCQUFzQjtJQUN0QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSTtRQUNJLGNBQWM7UUFDZCxlQUFlO0lBQ25CO0lBQ0E7UUFDSSxrQkFBa0I7UUFDbEIsY0FBYztRQUNkLGVBQWU7UUFDZixnQkFBZ0I7SUFDcEI7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2Jsb2cvYWJvdXQtdXMvYWJvdXQtdXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKGh0dHBzOi8vaS5waW5pbWcuY29tL29yaWdpbmFscy80Ny9jOC84OS80N2M4ODk2MmMwYzEzMDAzZGM2ZTM4MjE2ODY5ZTVmOC5qcGcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMTAwJTtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBoZWlnaHQ6IDEwMCU7XG59XG5cbmg1LCBoMSB7XG4gICAgcGFkZGluZy1sZWZ0OiAxcmVtO1xuICAgIHBhZGRpbmctcmlnaHQ6IDFyZW07XG59XG5cbnAge1xuICAgIGZvbnQtd2VpZ2h0OiAzMDA7XG4gICAgbGluZS1oZWlnaHQ6IDEuNDtcbiAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xufVxuXG5oMSwgaDUge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogIzIyNTZjZTtcbiAgICBmb250LXNpemU6IDJyZW07XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxuaDUge1xuICAgIGZvbnQtc2l6ZTogMS4zcmVtO1xuICAgIHBhZGRpbmctdG9wOiAyM3JlbTtcbn1cblxuaDQge1xuICAgIGNvbG9yOiAjMjI1NmNlO1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjEyMDBweCkge1xuICAgIGg0IHtcbiAgICAgICAgY29sb3I6ICMyMjU2Y2U7XG4gICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICB9XG4gICAgaDEge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIGNvbG9yOiAjMjI1NmNlO1xuICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICAgfVxufSJdfQ== */";
+    __webpack_exports__["default"] = "div {\n    background-image: url(https://i.pinimg.com/originals/47/c8/89/47c88962c0c13003dc6e38216869e5f8.jpg);\n    background-repeat: no-repeat;\n    background-position: 100%;\n    background-position: center;\n    background-size: cover;\n    height: 100%;\n}\n\nh5, h1 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n    text-align: center;\n    color: #2256ce;\n    font-size: 2rem;\n    font-weight: 500;\n}\n\np {\n    font-size: 20px;\n    line-height: 1.5;\n}\n\nh5 {\n    font-size: 1.3rem;\n    padding-top: 23rem;\n}\n\nh4 {\n    color: #2256ce;\n    font-size: 25px;\n    font-weight: 500;\n}\n\n@media screen and (min-width:1200px) {\n    h4,h5 {\n        color: #2256ce;\n        font-size: 2rem;\n    }\n    h1 {\n        text-align: center;\n        color: #2256ce;\n        font-size: 2rem;\n        font-weight: 500;\n    }\n    p {\n        font-size: 22px;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9hYm91dC11cy9hYm91dC11cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUdBQW1HO0lBQ25HLDRCQUE0QjtJQUM1Qix5QkFBeUI7SUFDekIsMkJBQTJCO0lBQzNCLHNCQUFzQjtJQUN0QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsY0FBYztJQUNkLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0k7UUFDSSxjQUFjO1FBQ2QsZUFBZTtJQUNuQjtJQUNBO1FBQ0ksa0JBQWtCO1FBQ2xCLGNBQWM7UUFDZCxlQUFlO1FBQ2YsZ0JBQWdCO0lBQ3BCO0lBQ0E7UUFDSSxlQUFlO0lBQ25CO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ibG9nL2Fib3V0LXVzL2Fib3V0LXVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChodHRwczovL2kucGluaW1nLmNvbS9vcmlnaW5hbHMvNDcvYzgvODkvNDdjODg5NjJjMGMxMzAwM2RjNmUzODIxNjg2OWU1ZjguanBnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IDEwMCU7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgaGVpZ2h0OiAxMDAlO1xufVxuXG5oNSwgaDEge1xuICAgIHBhZGRpbmctbGVmdDogMXJlbTtcbiAgICBwYWRkaW5nLXJpZ2h0OiAxcmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogIzIyNTZjZTtcbiAgICBmb250LXNpemU6IDJyZW07XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxucCB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG59XG5cbmg1IHtcbiAgICBmb250LXNpemU6IDEuM3JlbTtcbiAgICBwYWRkaW5nLXRvcDogMjNyZW07XG59XG5cbmg0IHtcbiAgICBjb2xvcjogIzIyNTZjZTtcbiAgICBmb250LXNpemU6IDI1cHg7XG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDoxMjAwcHgpIHtcbiAgICBoNCxoNSB7XG4gICAgICAgIGNvbG9yOiAjMjI1NmNlO1xuICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgfVxuICAgIGgxIHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBjb2xvcjogIzIyNTZjZTtcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgIH1cbiAgICBwIHtcbiAgICAgICAgZm9udC1zaXplOiAyMnB4O1xuICAgIH1cbn0iXX0= */";
     /***/
   },
 
@@ -1714,6 +1607,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/animations */
+    "./node_modules/@angular/animations/fesm2015/animations.js");
 
     var AboutUsComponent = function AboutUsComponent() {
       _classCallCheck(this, AboutUsComponent);
@@ -1728,6 +1627,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./about-us.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html")).default,
+      animations: [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('fade', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])('void => *', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({
+        letterSpacing: '10px',
+        opacity: 1
+      }), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])(5000)])])],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./about-us.component.css */
       "./src/app/blog/about-us/about-us.component.css")).default]
@@ -2077,7 +1980,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".logo {\n    width: 100%;\n    height: auto;\n}\n\nh1 {\n    background: rgb(4, 116, 192);\n    background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9jZWxsLXBob25lLWltYWdlL2NlbGwtcGhvbmUtaW1hZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksNEJBQTRCO0lBQzVCLGdMQUFrSDtJQUFsSCxrSEFBa0g7SUFDbEgsa0JBQWtCO0FBQ3RCIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9jZWxsLXBob25lLWltYWdlL2NlbGwtcGhvbmUtaW1hZ2UuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dvIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cbmgxIHtcbiAgICBiYWNrZ3JvdW5kOiByZ2IoNCwgMTE2LCAxOTIpO1xuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSg0LCAxMTYsIDE5MiwgMSkgMzIlLCByZ2JhKDE3LCAxMTgsIDE5NiwgMSkgNDMlLCByZ2JhKDIzNiwgMTkyLCAzOSwgMSkgNjYlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */";
+    __webpack_exports__["default"] = ".logo {\n    width: 100%;\n}\n\nh1 {\n    background: rgb(4, 116, 192);\n    background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9jZWxsLXBob25lLWltYWdlL2NlbGwtcGhvbmUtaW1hZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixnTEFBa0g7SUFBbEgsa0hBQWtIO0lBQ2xILGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvY2VsbC1waG9uZS1pbWFnZS9jZWxsLXBob25lLWltYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nbyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbmgxIHtcbiAgICBiYWNrZ3JvdW5kOiByZ2IoNCwgMTE2LCAxOTIpO1xuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSg0LCAxMTYsIDE5MiwgMSkgMzIlLCByZ2JhKDE3LCAxMTgsIDE5NiwgMSkgNDMlLCByZ2JhKDIzNiwgMTkyLCAzOSwgMSkgNjYlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -2189,7 +2092,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function CountdownTimerComponent() {
         _classCallCheck(this, CountdownTimerComponent);
 
-        this.countDown = new Date('April 30, 2020 06:00:25').getTime();
+        this.countDown = new Date('May 31, 2020 12:00:00').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
       }
@@ -2313,7 +2216,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n    text-align: center;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n        text-align: center;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBRUE7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO1FBQ1gsa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgIGgyIHtcbiAgICAgICAgZm9udC1zaXplOiAyLjhyZW07XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgfVxufSJdfQ== */";
+    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n    text-align: center;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n        text-align: center;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBR0E7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO1FBQ1gsa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDIuOHJlbTtcbiAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICB9XG59Il19 */";
     /***/
   },
 
@@ -2348,48 +2251,28 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
 
-    var PromoComponent =
-    /*#__PURE__*/
-    function () {
-      function PromoComponent() {
-        _classCallCheck(this, PromoComponent);
 
-        this.title = 'Deal Of The Month';
-      }
+    var _angular_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/animations */
+    "./node_modules/@angular/animations/fesm2015/animations.js");
 
-      _createClass(PromoComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {// var pos = 0;
-          // var slide = document.getElementById("slide");
-          // var t = setInterval(move, 8);
-          // function move() {
-          //   if (screen && screen.width > 1000 && pos >= 450 ) {
-          //     clearInterval(t)
-          //   }
-          //   else {
-          //     pos += 1;
-          //     slide.style.left = pos + 'px';
-          //   }
-          //   if (screen && screen.width < 500 && pos >= 90) {
-          //     clearInterval(t)
-          //   }
-          //   else {
-          //     pos += 1;
-          //     slide.style.left = pos + 'px'
-          //   }
-          // }
-        }
-      }]);
+    var PromoComponent = function PromoComponent() {
+      _classCallCheck(this, PromoComponent);
 
-      return PromoComponent;
-    }();
+      this.title = 'Deal Of The Month';
+    };
 
     PromoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'promo',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./promo.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/home/promo/promo.component.html")).default,
+      animations: [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('fade', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["state"])('void', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({
+        fontSize: 1,
+        opacity: 0
+      })), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])('void => *', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])(2000)])])],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./promo.component.css */
       "./src/app/home/promo/promo.component.css")).default]

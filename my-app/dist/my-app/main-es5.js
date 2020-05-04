@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <carousel></carousel>\n    <about-us></about-us>\n    <modify-delete-form></modify-delete-form>\n    <social-media-links></social-media-links>\n</div>";
+    __webpack_exports__["default"] = "<div>\n    <carousel></carousel>\n    <about-us></about-us>\n</div>";
     /***/
   },
 
@@ -172,26 +172,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     __webpack_exports__["default"] = "<iframe [src]=\"images[selectedImageIndex]\" \n        scrolling=\"no\" \n        frameborder=\"0\" \n        allowTransparency=\"true\"\n        allow=\"encrypted-media\">\n</iframe>";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html":
-  /*!*****************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html ***!
-    \*****************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppBlogModifyDeleteFormModifyDeleteFormComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\n    <iframe\n    id=\"JotFormIFrame-83597646428170\"\n    title=\"Guest Blog Posting Form\"\n    onload=\"window.parent.scrollTo(0,0)\"\n    allowtransparency=\"true\"\n    allowfullscreen=\"true\"\n    allow=\"geolocation; microphone; camera\"\n    src=\"https://form.jotform.com/83597646428170\"\n    frameborder=\"0\"\n    style=\"\n    min-width: 100%;\n    height:1039px;\n    border:none;\"\n    scrolling=\"no\"\n  >\n  </iframe>\n  <script type=\"text/javascript\">\n    var ifr = document.getElementById(\"JotFormIFrame-83597646428170\");\n    if(window.location.href && window.location.href.indexOf(\"?\") > -1) {\n      var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1);\n      if(ifr && get.length > 0) {\n        var src = ifr.src;\n        src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src  + \"?\" + get;\n        ifr.src = src;\n      }\n    }\n    window.handleIFrameMessage = function(e) {\n      if (typeof e.data === 'object') { return; }\n      var args = e.data.split(\":\");\n      if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[(args.length - 1)]); } else { iframe = document.getElementById(\"JotFormIFrame\"); }\n      if (!iframe) { return; }\n      switch (args[0]) {\n        case \"scrollIntoView\":\n          iframe.scrollIntoView();\n          break;\n        case \"setHeight\":\n          iframe.style.height = args[1] + \"px\";\n          break;\n        case \"collapseErrorPage\":\n          if (iframe.clientHeight > window.innerHeight) {\n            iframe.style.height = window.innerHeight + \"px\";\n          }\n          break;\n        case \"reloadPage\":\n          window.location.reload();\n          break;\n        case \"loadScript\":\n          var src = args[1];\n          if (args.length > 3) {\n              src = args[1] + ':' + args[2];\n          }\n          var script = document.createElement('script');\n          script.src = src;\n          script.type = 'text/javascript';\n          document.body.appendChild(script);\n          break;\n        case \"exitFullscreen\":\n          if      (window.document.exitFullscreen)        window.document.exitFullscreen();\n          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();\n          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();\n          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();\n          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();\n          break;\n      }\n      var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false;\n      if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) {\n        var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)};\n        iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\");\n      }\n    };\n    if (window.addEventListener) {\n      window.addEventListener(\"message\", handleIFrameMessage, false);\n    } else if (window.attachEvent) {\n      window.attachEvent(\"onmessage\", handleIFrameMessage);\n    }\n    </script>";
     /***/
   },
 
@@ -231,7 +211,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n<img class=\"logo\" src=\"../../../assets/images/phone-repair.jpg\">\n";
+    __webpack_exports__["default"] = "<h1> {{ title }}</h1>\n\n\n<img\n[src]=\"imagesSource[selectedImageIndex]\"\nscrolling=\"no\"\nframeborder=\"0\" \nallowTransparency=\"true\"\nallow=\"encrypted-media\">\n";
     /***/
   },
 
@@ -291,7 +271,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/sales-flyer.jpg\">\n</div>";
+    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/flyer.jpg\">\n</div>";
     /***/
   },
 
@@ -1367,43 +1347,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _blog_modify_delete_form_modify_delete_form_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
-    /*! ./blog/modify-delete-form/modify-delete-form.component */
-    "./src/app/blog/modify-delete-form/modify-delete-form.component.ts");
-    /* harmony import */
-
-
-    var _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./blog/social-media-links/social-media-links.component */
     "./src/app/blog/social-media-links/social-media-links.component.ts");
     /* harmony import */
 
 
-    var _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./appointment-page/form/form.component */
     "./src/app/appointment-page/form/form.component.ts");
     /* harmony import */
 
 
-    var _services_services_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    var _services_services_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./services/services.component */
     "./src/app/services/services.component.ts");
     /* harmony import */
 
 
-    var _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./services/book-now/book-now.component */
     "./src/app/services/book-now/book-now.component.ts");
     /* harmony import */
 
 
-    var _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    var _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./services/cell-phone-patients/cell-phone-patients.component */
     "./src/app/services/cell-phone-patients/cell-phone-patients.component.ts");
     /* harmony import */
 
 
-    var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+    var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
     /*! ./accessories/accessories.component */
     "./src/app/accessories/accessories.component.ts");
 
@@ -1412,7 +1386,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _toolbar_toolbar_component__WEBPACK_IMPORTED_MODULE_6__["ToolbarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__["CountdownTimerComponent"], _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__["CellPhoneImageComponent"], _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__["QuickLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__["BlogComponent"], _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__["CarouselComponent"], _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"], _blog_modify_delete_form_modify_delete_form_component__WEBPACK_IMPORTED_MODULE_20__["ModifyDeleteFormComponent"], _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__["SocialMediaLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__["AppointmentPageComponent"], _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__["FormComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_23__["ServicesComponent"], _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__["BookNowComponent"], _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__["CellPhonePatientsComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__["AccessoriesComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"], _toolbar_toolbar_component__WEBPACK_IMPORTED_MODULE_6__["ToolbarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__["CountdownTimerComponent"], _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__["CellPhoneImageComponent"], _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__["QuickLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__["BlogComponent"], _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__["CarouselComponent"], _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"], _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_20__["SocialMediaLinksComponent"], _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"], _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__["AppointmentPageComponent"], _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_21__["FormComponent"], _services_services_component__WEBPACK_IMPORTED_MODULE_22__["ServicesComponent"], _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_23__["BookNowComponent"], _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_24__["CellPhonePatientsComponent"], _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_25__["AccessoriesComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"], _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatNativeDateModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatSelectModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -1771,7 +1745,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, CarouselComponent);
 
         this.sanitizer = sanitizer;
-        this.imageSources = ["https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falletta.son%2Fposts%2F3179360095426892&width=500", "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fguyton.guyton.3%2Fposts%2F2635738569996688&width=500", "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkatyzia.butler.73%2Fposts%2F413926759561442&width=500", 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBDubb2x%2Fposts%2F2264839380494406&width=500', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBigNisha%2Fposts%2F2505836309464590&width=500'];
+        this.imageSources = ["https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Falletta.son%2Fposts%2F3179360095426892&width=500", "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkatyzia.butler.73%2Fposts%2F413926759561442&width=500", 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBDubb2x%2Fposts%2F2264839380494406&width=500', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBigNisha%2Fposts%2F2505836309464590&width=500'];
         this.selectedImageIndex = 0;
       }
 
@@ -1825,74 +1799,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./carousel.component.css */
       "./src/app/blog/carousel/carousel.component.css")).default]
     })], CarouselComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/blog/modify-delete-form/modify-delete-form.component.css":
-  /*!**************************************************************************!*\
-    !*** ./src/app/blog/modify-delete-form/modify-delete-form.component.css ***!
-    \**************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppBlogModifyDeleteFormModifyDeleteFormComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = ":host {\n  background-color: black;\n}\n \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYmxvZy9tb2RpZnktZGVsZXRlLWZvcm0vbW9kaWZ5LWRlbGV0ZS1mb3JtLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBdUI7QUFDekIiLCJmaWxlIjoic3JjL2FwcC9ibG9nL21vZGlmeS1kZWxldGUtZm9ybS9tb2RpZnktZGVsZXRlLWZvcm0uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG59XG4gIl19 */";
-    /***/
-  },
-
-  /***/
-  "./src/app/blog/modify-delete-form/modify-delete-form.component.ts":
-  /*!*************************************************************************!*\
-    !*** ./src/app/blog/modify-delete-form/modify-delete-form.component.ts ***!
-    \*************************************************************************/
-
-  /*! exports provided: ModifyDeleteFormComponent */
-
-  /***/
-  function srcAppBlogModifyDeleteFormModifyDeleteFormComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "ModifyDeleteFormComponent", function () {
-      return ModifyDeleteFormComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var ModifyDeleteFormComponent = function ModifyDeleteFormComponent() {
-      _classCallCheck(this, ModifyDeleteFormComponent);
-    };
-
-    ModifyDeleteFormComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'modify-delete-form',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./modify-delete-form.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/modify-delete-form/modify-delete-form.component.html")).default,
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./modify-delete-form.component.css */
-      "./src/app/blog/modify-delete-form/modify-delete-form.component.css")).default]
-    })], ModifyDeleteFormComponent);
     /***/
   },
 
@@ -1980,7 +1886,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".logo {\n    width: 100%;\n}\n\nh1 {\n    background: rgb(4, 116, 192);\n    background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9jZWxsLXBob25lLWltYWdlL2NlbGwtcGhvbmUtaW1hZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixnTEFBa0g7SUFBbEgsa0hBQWtIO0lBQ2xILGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvY2VsbC1waG9uZS1pbWFnZS9jZWxsLXBob25lLWltYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nbyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbmgxIHtcbiAgICBiYWNrZ3JvdW5kOiByZ2IoNCwgMTE2LCAxOTIpO1xuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSg0LCAxMTYsIDE5MiwgMSkgMzIlLCByZ2JhKDE3LCAxMTgsIDE5NiwgMSkgNDMlLCByZ2JhKDIzNiwgMTkyLCAzOSwgMSkgNjYlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */";
+    __webpack_exports__["default"] = "img {\n    width: 100%;\n    height: auto;\n    float: left;\n    margin:10px;\n}\n\nbutton {\n    margin-top: 30px;\n    float: left;\n    height: 50px;\n}\n\nh1 {\n    background: rgb(4, 116, 192);\n    background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    text-align: center;\n    color: #333;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9jZWxsLXBob25lLWltYWdlL2NlbGwtcGhvbmUtaW1hZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0lBQ1osV0FBVztJQUNYLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixXQUFXO0lBQ1gsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixnTEFBa0g7SUFBbEgsa0hBQWtIO0lBQ2xILGtCQUFrQjtJQUNsQixXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9ob21lL2NlbGwtcGhvbmUtaW1hZ2UvY2VsbC1waG9uZS1pbWFnZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgZmxvYXQ6IGxlZnQ7XG4gICAgbWFyZ2luOjEwcHg7XG59XG5cbmJ1dHRvbiB7XG4gICAgbWFyZ2luLXRvcDogMzBweDtcbiAgICBmbG9hdDogbGVmdDtcbiAgICBoZWlnaHQ6IDUwcHg7XG59XG5cbmgxIHtcbiAgICBiYWNrZ3JvdW5kOiByZ2IoNCwgMTE2LCAxOTIpO1xuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSg0LCAxMTYsIDE5MiwgMSkgMzIlLCByZ2JhKDE3LCAxMTgsIDE5NiwgMSkgNDMlLCByZ2JhKDIzNiwgMTkyLCAzOSwgMSkgNjYlKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICMzMzM7XG59XG4iXX0= */";
     /***/
   },
 
@@ -2016,11 +1922,50 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var CellPhoneImageComponent = function CellPhoneImageComponent() {
-      _classCallCheck(this, CellPhoneImageComponent);
+    var CellPhoneImageComponent =
+    /*#__PURE__*/
+    function () {
+      function CellPhoneImageComponent() {
+        _classCallCheck(this, CellPhoneImageComponent);
 
-      this.title = 'St.Louis Phone Repair';
-    };
+        this.selectedImageIndex = 0;
+        this.imagesSource = ["../../assets/images/phone-repair.jpg", "../../assets/images/phone-repair-img-one.JPG", "../../assets/images/phone-repair-img-two.JPG"];
+      }
+
+      _createClass(CellPhoneImageComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          var _this2 = this;
+
+          this.title = 'St.Louis Phone Repair';
+          this.imagesSource = this.imagesSource;
+          setInterval(function () {
+            _this2.onNext();
+          }, 2000);
+        }
+      }, {
+        key: "onNext",
+        value: function onNext() {
+          if (this.selectedImageIndex + 1 >= this.imagesSource.length) {
+            this.selectedImageIndex = 0;
+            console.log(this.selectedImageIndex);
+          } else {
+            this.selectedImageIndex++;
+          }
+        }
+      }, {
+        key: "onPrev",
+        value: function onPrev() {
+          if (this.selectedImageIndex === 0) {
+            this.selectedImageIndex = this.imagesSource.length - 1;
+          } else {
+            this.selectedImageIndex--;
+          }
+        }
+      }]);
+
+      return CellPhoneImageComponent;
+    }();
 
     CellPhoneImageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'cell-phone-image',
@@ -2100,19 +2045,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(CountdownTimerComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this2 = this;
+          var _this3 = this;
 
           setInterval(function () {
             //gets today's date
             var now = new Date().getTime(); //the date we are counting to minus today's live time
 
-            var distance = _this2.countDown - now; // Time calculations for days, hours, minutes and seconds
+            var distance = _this3.countDown - now; // Time calculations for days, hours, minutes and seconds
 
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
             var minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
             var seconds = Math.floor(distance % (1000 * 60) / 1000);
-            _this2.timer = "".concat(days, "days ").concat(hours, "hours ").concat(minutes, "minutes ").concat(seconds, "seconds");
+            _this3.timer = "".concat(days, "days ").concat(hours, "hours ").concat(minutes, "minutes ").concat(seconds, "seconds");
           }, 1000);
         }
       }]);
@@ -2216,7 +2161,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n    text-align: center;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n        text-align: center;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBR0E7SUFDSTtRQUNJLGlCQUFpQjtRQUNqQixXQUFXO1FBQ1gsa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb21vL3Byb21vLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbmgyIHtcbiAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDIuOHJlbTtcbiAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICB9XG59Il19 */";
+    __webpack_exports__["default"] = ":host {\n    margin: auto;\n    display: -webkit-box;\n    display: flex;\n}\n\nh2 {\n    margin-top: 1rem;\n    font-size: 1.5rem;\n    text-align: center;\n    color: #333;\n}\n\nimg {\n    width: 100%;\n    height: auto;\n    box-shadow: 10px 10px 10px 10px #888888;\n}\n\n@media screen and (min-width: 1200px) {\n    h2 {\n        font-size: 2.8rem;\n        color: #333;\n        text-align: center;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLG9CQUFhO0lBQWIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0lBQ1osdUNBQXVDO0FBQzNDOztBQUVBO0lBQ0k7UUFDSSxpQkFBaUI7UUFDakIsV0FBVztRQUNYLGtCQUFrQjtJQUN0QjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9wcm9tby9wcm9tby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xufVxuXG5oMiB7XG4gICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICMzMzM7XG59XG5cbmltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIGJveC1zaGFkb3c6IDEwcHggMTBweCAxMHB4IDEwcHggIzg4ODg4ODtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDIuOHJlbTtcbiAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICB9XG59Il19 */";
     /***/
   },
 

@@ -26,7 +26,6 @@ import { PromoComponent } from './home/promo/promo.component';
 import { BlogComponent } from './blog/blog.component';
 import { CarouselComponent } from './blog/carousel/carousel.component';
 import { AboutUsComponent } from './blog/about-us/about-us.component';
-import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 import { FormComponent } from './appointment-page/form/form.component';
 import { ServicesComponent } from './services/services.component';
@@ -46,7 +45,6 @@ import { AccessoriesComponent } from './accessories/accessories.component';
     BlogComponent,
     CarouselComponent,
     AboutUsComponent,
-    ModifyDeleteFormComponent,
     SocialMediaLinksComponent,
     PromoComponent,
     AppointmentPageComponent,

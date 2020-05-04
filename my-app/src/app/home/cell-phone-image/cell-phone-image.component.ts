@@ -45,8 +45,6 @@ export class CellPhoneImageComponent implements OnInit {
       this.selectedImageIndex--;
     }
   }
-
-
 }
 
 

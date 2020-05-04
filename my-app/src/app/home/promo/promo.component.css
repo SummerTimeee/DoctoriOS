@@ -7,13 +7,14 @@ h2 {
     margin-top: 1rem;
     font-size: 1.5rem;
     text-align: center;
+    color: #333;
 }
 
 img {
     width: 100%;
     height: auto;
+    box-shadow: 10px 10px 10px 10px #888888;
 }
-
 
 @media screen and (min-width: 1200px) {
     h2 {

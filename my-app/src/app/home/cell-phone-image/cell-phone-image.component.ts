@@ -31,7 +31,6 @@ export class CellPhoneImageComponent implements OnInit {
   onNext() {
     if (this.selectedImageIndex + 1 >= this.imagesSource.length) {
       this.selectedImageIndex = 0;
-      console.log(this.selectedImageIndex)
     } else {
       this.selectedImageIndex++;
     }

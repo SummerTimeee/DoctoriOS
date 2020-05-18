@@ -3,16 +3,12 @@
 </div>
 <div *ngFor="let phone of phones">
     <ul class="accordion">
-        <li>
+        <li [ngStyle]="{
+            'background-image': phone.src,
+            'height': phone.height,
+            'img': phone.width
+                    }">
             <div class="heading"> {{phone.phoneName}} </div>
-            <img src="{{phone.src}}"
-            [ngStyle]="{
-                'background-image':  phone.src ,
-                'background-size': '250px',
-                'background-position': '50% 50%',
-                'background-repeat': 'no-repeat',
-                'padding-left' : phone.padding
-                }"/>
             <div class="description">
                 <h2> {{phone.phoneName}} </h2>
                 <p> {{phone.repairPrice}} </p>

@@ -1,5 +1,8 @@
-img {
-        padding: 0;
+.img {
+    background-position: center;
+}
+.fa-briefcase-medical {
+    color: red;
 }
 ul.accordion {
     float: left;
@@ -28,7 +31,7 @@ ul.accordion li {
 }
 
 li {
-    width: 90px;
+    width: 83px;
     transition: width 3s;
 }
 
@@ -125,7 +128,6 @@ ul.accordion li .description a:hover {
 }
 
 ul.accordion li.ip8 {
-    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
 }
 
 ul.accordion li.ip8small {

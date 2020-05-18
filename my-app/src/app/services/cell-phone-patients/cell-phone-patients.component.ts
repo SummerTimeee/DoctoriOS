@@ -16,7 +16,7 @@ export class CellPhonePatientsComponent {
         phoneName: 'iPhone 8+',
         repairPrice: `Repair Price - US $${75.00}`,
         oldRepairPrice: `Repair Price - US ç$${90.00}`,
-        src: '../../assets/cellphone-images/cellphone-images/iphone8-plus-gold-select-2018.jpeg'
+        src: '../../assets/cellphone-images/cellphone-images/iphone8-plus-gold-select-2018.jpeg',
       },
       {
 
@@ -79,7 +79,14 @@ export class CellPhonePatientsComponent {
         phoneName: 'iPhone X, XR, XS',
         repairPrice: `Repair Price - US $${135.00}`,
         oldRepairPrice: `Repair Price - US $${165.00}`,
-        src: '../../assets/cellphone-images/cellphone-images/iphoneX.jpg'
+        src: '../../assets/cellphone-images/cellphone-images/iphonexr.jpg'
+      },
+      {
+
+        phoneName: 'iPhone XS Max',
+        repairPrice: `Repair Price - US $${185.00}`,
+        oldRepairPrice: `Repair Price - US $${200.00}`,
+        src: '../../assets/cellphone-images/cellphone-images/iphoneXSMax.jpg'
       },
 
     ]

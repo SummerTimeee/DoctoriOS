@@ -1,13 +1,37 @@
 import { Component } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'cell-phone-patients',
   templateUrl: './cell-phone-patients.component.html',
-  styleUrls: ['./cell-phone-patients.component.css']
+  styleUrls: ['./cell-phone-patients.component.css'],
+  animations: [
+    trigger('divState', [
+      state('normal', style({
+        'background-color': 'red',
+        transform: 'translateX(0)'
+      })),
+      state('highlighted', style({
+        'background-color': 'blue',
+        transform: 'translateX(100px)'
+      })),
+      transition('normal => highligted', animate(300)),
+      transition('highlighted => normal', animate(800))
+
+    ])
+  ]
 })
 export class CellPhonePatientsComponent {
+  state = 'normal';
+  title = 'Cell';
 
-  title = 'Cell Phone Patients';
+
+  onAnimate() {
+    this.state === 'normal' ? this.state = 'highlighted' : this.state = 'normal';
+  }
+
+
+
 
   phones =
     [
@@ -78,15 +102,15 @@ export class CellPhonePatientsComponent {
         phoneName: 'iPhone X, XR, XS',
         repairPrice: `Repair Price - US $${135.00}`,
         oldRepairPrice: `Repair Price - US $${165.00}`,
-        src: 'url(https://i.gadgets360cdn.com/products/large/1536782796_635_iphone_xr.jpg',
-      
+        src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-blue-select-201809?wid=441&hei=529&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1565209264208)',
+
       },
       {
 
         phoneName: 'iPhone XS Max',
         repairPrice: `Repair Price - US $${185.00}`,
         oldRepairPrice: `Repair Price - US $${200.00}`,
-        src: '../../assets/cellphone-images/cellphone-images/iphoneXSMax'
+        src: 'url(https://img.gkbcdn.com/p/2019-11-22/apple-iphone-x-64gb-silver--used--20191122085356800._w500_.jpg)'
       },
 
     ]

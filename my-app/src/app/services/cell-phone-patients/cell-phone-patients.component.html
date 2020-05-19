@@ -1,13 +1,15 @@
-<div>
-    <h1>{{ title }} <i class="fas fa-briefcase-medical"></i></h1>
+<button class="btn btn-primary" (click)="onAnimate()">Animate !</button>
+<div 
+style="width: 100px; height: 100px"
+[@divState]="state">
+
+    <h1 >{{ title }} <i class="fas fa-briefcase-medical"></i></h1>
 </div>
 <div *ngFor="let phone of phones">
     <ul class="accordion">
-        <li [ngStyle]="{
-            'background-image': phone.src,
-            'height': phone.height,
-            'img': phone.width
-                    }">
+        <li [ngStyle]="{ 
+            'background-image': phone.src
+        }">
             <div class="heading"> {{phone.phoneName}} </div>
             <div class="description">
                 <h2> {{phone.phoneName}} </h2>
@@ -17,127 +19,3 @@
         </li>
     </ul>
 </div>
-<!-- <div>
-    <ul class="accordion">
-        <li class="ip6Plus">
-            <div class="heading">iPhone 9+</div>
-            <div class="description">
-                <h2>iPhone 6+</h2>
-                <p>Repair Price - US $65.00</p>
-                <h4>Repair Price - US $80.00</h4>
-            </div>
-        </li>
-    </ul>
-</div> -->
-<!-- <div>
-    <h1>{{ title }} </h1>
-</div>
-<div>
-    <ul class="accordion"> 
-        <li class="ip8">
-            <div class="heading"></div>
-            <div class="description">
-                <h2>iPhone 8+</h2>
-                <p>Repair Price - US $75.00</p>
-                <h4>Repair Price - US $90.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ip8small">
-            <div class="heading">iPhone 8</div>
-            <div class="description">
-                <h2>iPhone 8</h2>
-                <p>Repair Price - US $70.00</p>
-                <h4>Repair Price - US $85.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ip7">
-            <div class="heading">iPhone 7+</div>
-            <div class="description">
-                <h2>iPhone 7+</h2>
-                <p>Repair Price - US $75.00</p>
-                <h4>Repair Price - US $90.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ip7small">
-            <div class="heading">iPhone 7</div>
-            <div class="description">
-                <h2>iPhone 7</h2>
-                <p>Repair Price - US $70.00</p>
-                <h4>Repair Price - US $85.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ip6sPlus">
-            <div class="heading">iPhone 6s+</div>
-            <div class="description">
-                <h2>iPhone 6s+</h2>
-                <p>Repair Price - US $65.00</p>
-                <h4>Repair Price - US $80.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ip6s">
-            <div class="heading">iPhone 6s</div>
-            <div class="description">
-                <h2>iPhone 6s</h2>
-                <p>Repair Price - US $60.00</p>
-                <h4>Repair Price - US $75.00</h4>
-            </div>
-        </li>
-    </ul>
-</div> -->
-<!-- <div>
-    <ul class="accordion">
-        <li class="ip6">
-            <div class="heading">iPhone 6</div>
-            <div class="description">
-                <h2>iPhone 6</h2>
-                <p>Repair Price - US $55.00</p>
-                <h4>Repair Price - US $70.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ipSe">
-            <div class="heading">iPhone SE</div>
-            <div class="description">
-                <h2>iPhone SE</h2>
-                <p>Repair Price - US $50.00</p>
-                <h4>Repair Price - US $65.00</h4>
-            </div>
-        </li>
-    </ul>
-</div>
-<div>
-    <ul class="accordion">
-        <li class="ipX">
-            <div class="heading">iPhone X</div>
-            <div class="description">
-                <h2>iPhone X</h2>
-                <p>Repair Price - US $135.00</p>
-                <h4>Repair Price - US $165.00</h4>
-            </div>
-        </li>
-    </ul>
-</div> 
-  -->

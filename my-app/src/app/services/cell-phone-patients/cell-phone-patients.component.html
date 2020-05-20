@@ -1,15 +1,10 @@
-<button class="btn btn-primary" (click)="onAnimate()">Animate !</button>
-<div 
-style="width: 100px; height: 100px"
-[@divState]="state">
+<h1 @fade>{{ title }}
+    <i class="fas fa-briefcase-medical"></i>
+</h1>
 
-    <h1 >{{ title }} <i class="fas fa-briefcase-medical"></i></h1>
-</div>
 <div *ngFor="let phone of phones">
     <ul class="accordion">
-        <li [ngStyle]="{ 
-            'background-image': phone.src
-        }">
+        <li [ngStyle]="{ 'background-image': phone.src }">
             <div class="heading"> {{phone.phoneName}} </div>
             <div class="description">
                 <h2> {{phone.phoneName}} </h2>

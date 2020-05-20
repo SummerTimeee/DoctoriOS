@@ -3,6 +3,7 @@
     grid-template-columns: auto auto;
     width: 100%;
 }
+
 .grid-item {
     background-color: black;
     border: 5px solid #fff;
@@ -15,17 +16,14 @@ a {
     text-align: center;
 
 }
-h1, h2 {
+h1 {
     text-align: center;
     color: #333;
     font-weight: 100;
     font-size: 1.2rem;
 }
 @media screen and (min-width:1200px) {
-    h1, h2 {
-        text-align: center;
-        color: #333;
-        font-weight: 100;
+    h1 {
         font-size: 2.2rem;
     }
 }

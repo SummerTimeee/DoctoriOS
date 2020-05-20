@@ -1,36 +1,26 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, transition, animate } from '@angular/animations';
+import { trigger, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'cell-phone-patients',
   templateUrl: './cell-phone-patients.component.html',
   styleUrls: ['./cell-phone-patients.component.css'],
   animations: [
-    trigger('divState', [
-      state('normal', style({
-        'background-color': 'red',
-        transform: 'translateX(0)'
-      })),
-      state('highlighted', style({
-        'background-color': 'blue',
-        transform: 'translateX(100px)'
-      })),
-      transition('normal => highligted', animate(300)),
-      transition('highlighted => normal', animate(800))
-
+    trigger('fade', [
+      transition('void => *', [
+        style(
+          {
+            letterSpacing: '10px', opacity: 1, color: 'red'
+          }
+        ),
+        animate(5000)
+      ])
     ])
   ]
 })
 export class CellPhonePatientsComponent {
-  state = 'normal';
-  title = 'Cell';
 
-
-  onAnimate() {
-    this.state === 'normal' ? this.state = 'highlighted' : this.state = 'normal';
-  }
-
-
+  title = 'Cell Phone Patients';
 
 
   phones =

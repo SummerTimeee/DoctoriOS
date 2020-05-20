@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CellPhoneImageComponent implements OnInit {
 
-  title: string;
+  title: string = 'St.Louis Phone Repair';
   selectedImageIndex = 0;
 
   ngOnInit() {
-    this.title = 'St.Louis Phone Repair';
     this.imagesSource = this.imagesSource;
-
     setInterval(() => {
       this.onNext();
     }, 2000)

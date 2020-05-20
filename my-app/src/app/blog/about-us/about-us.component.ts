@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { transition, trigger, state, style, animate } from '@angular/animations';
+import { transition, trigger, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'about-us',
@@ -8,15 +8,18 @@ import { transition, trigger, state, style, animate } from '@angular/animations'
   animations: [
     trigger('fade', [
       transition('void => *', [
-        style({ letterSpacing: '10px', opacity: 1 }),
+        style(
+          {
+            letterSpacing: '10px', opacity: 1, color: 'red'
+          }),
         animate(5000)
-      ])
-    ])
+      ]),
+    ]),
   ]
 })
+
 export class AboutUsComponent {
   title = 'LET US INTRODUCE OURSELVES';
   header = '#1 Afforable Phone Repair Service';
   about = 'About Us';
-
 }

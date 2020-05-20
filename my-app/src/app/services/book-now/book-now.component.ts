@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./book-now.component.css']
 })
 export class BookNowComponent {
-title = 'Cell Phone Patients';
-book = 'Book Now';
+title : string = 'Cell Phone Patients';
+book : string = 'Book Now';
 }

@@ -13,12 +13,10 @@ import { trigger, state, transition, style, animate } from '@angular/animations'
       transition('void => *', [
         animate(2000),
       ]),
-
-
     ])
   ]
 })
 
 export class PromoComponent {
-  title = 'Deal Of The Month';
+  title: string = 'Deal Of The Month';
 }

@@ -1603,8 +1603,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       "./node_modules/raw-loader/dist/cjs.js!./src/app/blog/about-us/about-us.component.html")).default,
       animations: [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('fade', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])('void => *', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({
         letterSpacing: '10px',
-        opacity: 1,
-        color: 'red'
+        opacity: 1
       }), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])(5000)])])],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./about-us.component.css */

@@ -866,7 +866,7 @@ AboutUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('fade', [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])('void => *', [
                     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({
-                        letterSpacing: '10px', opacity: 1, color: 'red'
+                        letterSpacing: '10px', opacity: 1,
                     }),
                     Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])(5000)
                 ]),

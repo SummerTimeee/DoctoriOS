@@ -10,7 +10,7 @@ import { transition, trigger, style, animate } from '@angular/animations';
       transition('void => *', [
         style(
           {
-            letterSpacing: '10px', opacity: 1, color: 'red'
+            letterSpacing: '10px', opacity: 1, 
           }),
         animate(5000)
       ]),

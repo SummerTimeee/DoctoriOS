@@ -1,11 +1,12 @@
 <mat-toolbar>
-  <img src="../../assets/images/logo.png" alt="doctorios">
+  <img src="../../assets/images/updatedlogo.png" alt="doctorios">
   <span class="spacer"></span>
   <div class="links">
     <a [routerLink]="['/home']">Home</a>
     <a [routerLink]="['/services']">Services</a>
     <a [routerLink]="['/book']"><span>Book</span></a>
     <a [routerLink]="['/blog']">Blog</a>
+    <a [routerLink]="['/FAQs']">FAQs</a>
   </div>
   <mat-icon (click)="showMenu = !showMenu">menu</mat-icon>
 </mat-toolbar>
@@ -15,4 +16,5 @@
   <a [routerLink]="['/services']">Services</a>
   <a [routerLink]="['/book']"><span>Book</span></a>
   <a [routerLink]="['/blog']">Blog</a>
+  <a [routerLink]="['/FAQs']">FAQs</a>
 </div>

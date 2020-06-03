@@ -16,6 +16,10 @@ import {
   MatSelectModule,
 } from '@angular/material';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatExpansionModule } from '@angular/material/expansion';
+
+
+
 import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
@@ -32,6 +36,7 @@ import { ServicesComponent } from './services/services.component';
 import { BookNowComponent } from './services/book-now/book-now.component';
 import { CellPhonePatientsComponent } from './services/cell-phone-patients/cell-phone-patients.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
+import { FAQsComponent } from './faqs/faqs.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +58,7 @@ import { AccessoriesComponent } from './accessories/accessories.component';
     BookNowComponent,
     CellPhonePatientsComponent,
     AccessoriesComponent,
+    FAQsComponent,
   ],
 
   imports: [
@@ -74,7 +80,8 @@ import { AccessoriesComponent } from './accessories/accessories.component';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,12 +1,11 @@
 <h1> {{ title }} </h1>
-<mat-accordion>
-
-    <mat-expansion-panel *ngFor="let faq of faqs">
-        <mat-expansion-panel-header>
-            {{ faq.question }}
-        </mat-expansion-panel-header>
-        {{ faq.answer }}
-    </mat-expansion-panel>
-
-
-</mat-accordion>
+<div>
+    <mat-accordion>
+        <mat-expansion-panel *ngFor="let faq of faqs">
+            <mat-expansion-panel-header>
+                {{ faq.question }}
+            </mat-expansion-panel-header>
+            {{ faq.answer }}
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

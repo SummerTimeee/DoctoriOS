@@ -1,6 +1,12 @@
 .fa-briefcase-medical {
     color: red;
 }
+.mat-fab.mat-primary {
+    background-color: rgb(110, 110, 110);
+    bottom: 28px;
+    left: 10rem;
+    opacity: 0.5;
+}
 
 ul.accordion {
     float: left;
@@ -231,4 +237,5 @@ ul.accordion li .description a:hover {
         color: #333;
         text-decoration: underline;
     }
+   
 }

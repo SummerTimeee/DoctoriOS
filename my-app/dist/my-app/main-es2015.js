@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h1>{{ title }} </h1>\n    <h5>{{ header }}</h5>\n</div>\n<h1>{{ about }}</h1>\n<h4 @fade>What we do</h4>\n<p>Here at Doctor iOS we repair your phone screens at a very affordable price to help you save money. Get low-cost\n    phone repair right at your door step because we even come to you.</p>\n<h4 @fade>Why we do it</h4>\n<p>We strive to save you money. Expenses for a new cell phone often is over $500, while an iPhone screen replacement \n    or other common cell phone repairs cost more than $300 on average. Don't break your phone screen then break the bank!</p>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h1>{{ title }} </h1>\n    <h5>{{ header }}</h5>\n</div>\n<h1>{{ about }}</h1>\n<h4 @fade>What we do</h4>\n<p>Here at Doctor iOS we service most iOS Apple devices. We repair your phone screens at a very affordable price to help you save money. Get low-cost\n    phone repair right at your door step because we even come to you.</p>\n<h4 @fade>Why we do it</h4>\n<p>We strive to save you money. Expenses for a new cell phone often is over $500, while an iPhone screen replacement\n    or other common cell phone repairs cost more than $300 on average. Don't break your phone screen then break the\n    bank!\n    Call today for a free quote.\n</p>");
 
 /***/ }),
 
@@ -124,6 +124,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<!-- <a href=\"https://www.facebook.com/doctoriOS.repair/\">\n    <img src=\"https://www.stlukeseye.com/wp-content/uploads/2018/03/like-us-on-facebook.jpg\">\n</a> -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/faqs/faqs.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/faqs/faqs.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<h1> {{ title }} </h1>\n<div>\n    <mat-accordion>\n        <mat-expansion-panel *ngFor=\"let faq of faqs\">\n            <mat-expansion-panel-header>\n                {{ faq.question }}\n            </mat-expansion-panel-header>\n            {{ faq.answer }}\n        </mat-expansion-panel>\n    </mat-accordion>\n</div>");
 
 /***/ }),
 
@@ -240,7 +253,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar>\n  <img src=\"../../assets/images/logo.png\" alt=\"doctorios\">\n  <span class=\"spacer\"></span>\n  <div class=\"links\">\n    <a [routerLink]=\"['/home']\">Home</a>\n    <a [routerLink]=\"['/services']\">Services</a>\n    <a [routerLink]=\"['/book']\"><span>Book</span></a>\n    <a [routerLink]=\"['/blog']\">Blog</a>\n  </div>\n  <mat-icon (click)=\"showMenu = !showMenu\">menu</mat-icon>\n</mat-toolbar>\n\n<div *ngIf=\"showMenu\" class=\"menu\">\n  <a [routerLink]=\"['/home']\">Home</a>\n  <a [routerLink]=\"['/services']\">Services</a>\n  <a [routerLink]=\"['/book']\"><span>Book</span></a>\n  <a [routerLink]=\"['/blog']\">Blog</a>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar>\n  <img src=\"../../assets/images/updatedlogo.png\" alt=\"doctorios\">\n  <span class=\"spacer\"></span>\n  <div class=\"links\">\n    <a [routerLink]=\"['/home']\">Home</a>\n    <a [routerLink]=\"['/services']\">Services</a>\n    <a [routerLink]=\"['/book']\"><span>Book</span></a>\n    <a [routerLink]=\"['/blog']\">Blog</a>\n    <a [routerLink]=\"['/FAQs']\">FAQs</a>\n  </div>\n  <mat-icon (click)=\"showMenu = !showMenu\">menu</mat-icon>\n</mat-toolbar>\n\n<div *ngIf=\"showMenu\" class=\"menu\">\n  <a [routerLink]=\"['/home']\">Home</a>\n  <a [routerLink]=\"['/services']\">Services</a>\n  <a [routerLink]=\"['/book']\"><span>Book</span></a>\n  <a [routerLink]=\"['/blog']\">Blog</a>\n  <a [routerLink]=\"['/FAQs']\">FAQs</a>\n</div>");
 
 /***/ }),
 
@@ -551,6 +564,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./appointment-page/appointment-page.component */ "./src/app/appointment-page/appointment-page.component.ts");
 /* harmony import */ var _services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./services/services.component */ "./src/app/services/services.component.ts");
 /* harmony import */ var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./accessories/accessories.component */ "./src/app/accessories/accessories.component.ts");
+/* harmony import */ var _faqs_faqs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./faqs/faqs.component */ "./src/app/faqs/faqs.component.ts");
+
 
 
 
@@ -565,7 +580,8 @@ const routes = [
     { path: 'blog', component: _blog_blog_component__WEBPACK_IMPORTED_MODULE_3__["BlogComponent"] },
     { path: 'book', component: _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_5__["AppointmentPageComponent"] },
     { path: 'services', component: _services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
-    { path: 'accessories', component: _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__["AccessoriesComponent"] }
+    { path: 'accessories', component: _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_7__["AccessoriesComponent"] },
+    { path: 'FAQs', component: _faqs_faqs_component__WEBPACK_IMPORTED_MODULE_8__["FAQsComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -644,22 +660,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm2015/material.js");
 /* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/esm2015/radio.js");
-/* harmony import */ var _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./appointment-page/appointment-page.component */ "./src/app/appointment-page/appointment-page.component.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./home/countdown-timer/countdown-timer.component */ "./src/app/home/countdown-timer/countdown-timer.component.ts");
-/* harmony import */ var _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./home/cell-phone-image/cell-phone-image.component */ "./src/app/home/cell-phone-image/cell-phone-image.component.ts");
-/* harmony import */ var _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./home/quick-links/quick-links.component */ "./src/app/home/quick-links/quick-links.component.ts");
-/* harmony import */ var _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./home/promo/promo.component */ "./src/app/home/promo/promo.component.ts");
-/* harmony import */ var _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./blog/blog.component */ "./src/app/blog/blog.component.ts");
-/* harmony import */ var _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./blog/carousel/carousel.component */ "./src/app/blog/carousel/carousel.component.ts");
-/* harmony import */ var _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./blog/about-us/about-us.component */ "./src/app/blog/about-us/about-us.component.ts");
-/* harmony import */ var _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./blog/social-media-links/social-media-links.component */ "./src/app/blog/social-media-links/social-media-links.component.ts");
-/* harmony import */ var _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./appointment-page/form/form.component */ "./src/app/appointment-page/form/form.component.ts");
-/* harmony import */ var _services_services_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./services/services.component */ "./src/app/services/services.component.ts");
-/* harmony import */ var _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./services/book-now/book-now.component */ "./src/app/services/book-now/book-now.component.ts");
-/* harmony import */ var _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./services/cell-phone-patients/cell-phone-patients.component */ "./src/app/services/cell-phone-patients/cell-phone-patients.component.ts");
-/* harmony import */ var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./accessories/accessories.component */ "./src/app/accessories/accessories.component.ts");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
+/* harmony import */ var _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./appointment-page/appointment-page.component */ "./src/app/appointment-page/appointment-page.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./home/countdown-timer/countdown-timer.component */ "./src/app/home/countdown-timer/countdown-timer.component.ts");
+/* harmony import */ var _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./home/cell-phone-image/cell-phone-image.component */ "./src/app/home/cell-phone-image/cell-phone-image.component.ts");
+/* harmony import */ var _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./home/quick-links/quick-links.component */ "./src/app/home/quick-links/quick-links.component.ts");
+/* harmony import */ var _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./home/promo/promo.component */ "./src/app/home/promo/promo.component.ts");
+/* harmony import */ var _blog_blog_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./blog/blog.component */ "./src/app/blog/blog.component.ts");
+/* harmony import */ var _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./blog/carousel/carousel.component */ "./src/app/blog/carousel/carousel.component.ts");
+/* harmony import */ var _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./blog/about-us/about-us.component */ "./src/app/blog/about-us/about-us.component.ts");
+/* harmony import */ var _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./blog/social-media-links/social-media-links.component */ "./src/app/blog/social-media-links/social-media-links.component.ts");
+/* harmony import */ var _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./appointment-page/form/form.component */ "./src/app/appointment-page/form/form.component.ts");
+/* harmony import */ var _services_services_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./services/services.component */ "./src/app/services/services.component.ts");
+/* harmony import */ var _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./services/book-now/book-now.component */ "./src/app/services/book-now/book-now.component.ts");
+/* harmony import */ var _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./services/cell-phone-patients/cell-phone-patients.component */ "./src/app/services/cell-phone-patients/cell-phone-patients.component.ts");
+/* harmony import */ var _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./accessories/accessories.component */ "./src/app/accessories/accessories.component.ts");
+/* harmony import */ var _faqs_faqs_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./faqs/faqs.component */ "./src/app/faqs/faqs.component.ts");
+
+
 
 
 
@@ -693,22 +713,23 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
             _toolbar_toolbar_component__WEBPACK_IMPORTED_MODULE_6__["ToolbarComponent"],
-            _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"],
-            _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_13__["CountdownTimerComponent"],
-            _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_14__["CellPhoneImageComponent"],
-            _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_15__["QuickLinksComponent"],
-            _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"],
-            _blog_blog_component__WEBPACK_IMPORTED_MODULE_17__["BlogComponent"],
-            _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_18__["CarouselComponent"],
-            _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"],
-            _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_20__["SocialMediaLinksComponent"],
-            _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_16__["PromoComponent"],
-            _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_10__["AppointmentPageComponent"],
-            _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_21__["FormComponent"],
-            _services_services_component__WEBPACK_IMPORTED_MODULE_22__["ServicesComponent"],
-            _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_23__["BookNowComponent"],
-            _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_24__["CellPhonePatientsComponent"],
-            _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_25__["AccessoriesComponent"],
+            _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"],
+            _home_countdown_timer_countdown_timer_component__WEBPACK_IMPORTED_MODULE_14__["CountdownTimerComponent"],
+            _home_cell_phone_image_cell_phone_image_component__WEBPACK_IMPORTED_MODULE_15__["CellPhoneImageComponent"],
+            _home_quick_links_quick_links_component__WEBPACK_IMPORTED_MODULE_16__["QuickLinksComponent"],
+            _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_17__["PromoComponent"],
+            _blog_blog_component__WEBPACK_IMPORTED_MODULE_18__["BlogComponent"],
+            _blog_carousel_carousel_component__WEBPACK_IMPORTED_MODULE_19__["CarouselComponent"],
+            _blog_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__["AboutUsComponent"],
+            _blog_social_media_links_social_media_links_component__WEBPACK_IMPORTED_MODULE_21__["SocialMediaLinksComponent"],
+            _home_promo_promo_component__WEBPACK_IMPORTED_MODULE_17__["PromoComponent"],
+            _appointment_page_appointment_page_component__WEBPACK_IMPORTED_MODULE_11__["AppointmentPageComponent"],
+            _appointment_page_form_form_component__WEBPACK_IMPORTED_MODULE_22__["FormComponent"],
+            _services_services_component__WEBPACK_IMPORTED_MODULE_23__["ServicesComponent"],
+            _services_book_now_book_now_component__WEBPACK_IMPORTED_MODULE_24__["BookNowComponent"],
+            _services_cell_phone_patients_cell_phone_patients_component__WEBPACK_IMPORTED_MODULE_25__["CellPhonePatientsComponent"],
+            _accessories_accessories_component__WEBPACK_IMPORTED_MODULE_26__["AccessoriesComponent"],
+            _faqs_faqs_component__WEBPACK_IMPORTED_MODULE_27__["FAQsComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -719,17 +740,18 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatButtonModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"],
             _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ReactiveFormsModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatDatepickerModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatNativeDateModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatFormFieldModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatInputModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatSelectModule"]
+            _angular_forms__WEBPACK_IMPORTED_MODULE_12__["FormsModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_8__["MatSelectModule"],
+            _angular_material_expansion__WEBPACK_IMPORTED_MODULE_10__["MatExpansionModule"]
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -1040,6 +1062,88 @@ SocialMediaLinksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/faqs/faqs.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/faqs/faqs.component.css ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("div {\n    margin: 5%;\n}\n.mat-expansion-panel {\n    box-shadow: 10px 10px 10px 10px #888888;\n    background-color: #ffffff;\n    color: black;\n    padding-bottom: 1rem;\n}\nh1 {\n    padding-left: 5%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmFxcy9mYXFzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0FBQ2Q7QUFDQTtJQUNJLHVDQUF1QztJQUN2Qyx5QkFBeUI7SUFDekIsWUFBWTtJQUNaLG9CQUFvQjtBQUN4QjtBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvZmFxcy9mYXFzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xuICAgIG1hcmdpbjogNSU7XG59XG4ubWF0LWV4cGFuc2lvbi1wYW5lbCB7XG4gICAgYm94LXNoYWRvdzogMTBweCAxMHB4IDEwcHggMTBweCAjODg4ODg4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gICAgY29sb3I6IGJsYWNrO1xuICAgIHBhZGRpbmctYm90dG9tOiAxcmVtO1xufVxuXG5oMSB7XG4gICAgcGFkZGluZy1sZWZ0OiA1JTtcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/faqs/faqs.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/faqs/faqs.component.ts ***!
+  \****************************************/
+/*! exports provided: FAQsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FAQsComponent", function() { return FAQsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FAQsComponent = class FAQsComponent {
+    constructor() {
+        this.title = "FAQs";
+        this.faqs = [
+            {
+                question: 'Do you provide any other services that are not listed on the website?',
+                answer: 'In addition to cell phone repair, for most devices we specialize in : Battery Replacements, Camera Replacements, Charger Ports & more!'
+            },
+            {
+                question: 'Will I get my phone back the same day?',
+                answer: 'Yes, upon availability Doctos iOS returns the damaged device back the same day like new. Repairs takes between 15-20 minutes !'
+            },
+            {
+                question: 'Does Doctor iOS come to me?',
+                answer: 'Get low-cost phone repair right at your door step because we even come to you.'
+            },
+            {
+                question: 'Are your parts and tools under warranty?',
+                answer: 'Yes, all phones come with a lifetime warranty. The warranty does not cover issues caused by physical or liquid damage.'
+            },
+            {
+                question: 'Does Doctor iOS unlock and sell phones?',
+                answer: 'No we do not unlock or sell phones.'
+            },
+            {
+                question: 'Do you repair any other kind of phones, that are not listed on the website?',
+                answer: 'No sorry, iOS devices only.'
+            },
+            {
+                question: 'Do I need to make an appointment to bring my device in for a repair?',
+                answer: 'Yes, appointments are necessary for iPhones and iPads, based upon part availability.'
+            },
+            {
+                question: 'Does Doctor iOS sell parts or tools?',
+                answer: 'Doctor iOS does not sell parts or tools seperately from services.'
+            },
+            {
+                question: 'I dropped my phone and it has become unresponsive to touch, does the LCD and Glass repair fix this issue?',
+                answer: 'Yes, in most cases all your phone needs is a new LCD and glass replacement.'
+            }
+        ];
+    }
+};
+FAQsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-faqs',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./faqs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/faqs/faqs.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./faqs.component.css */ "./src/app/faqs/faqs.component.css")).default]
+    })
+], FAQsComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/home/cell-phone-image/cell-phone-image.component.css":
 /*!**********************************************************************!*\
   !*** ./src/app/home/cell-phone-image/cell-phone-image.component.css ***!
@@ -1141,7 +1245,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let CountdownTimerComponent = class CountdownTimerComponent {
     constructor() {
-        this.countDown = new Date('May 31, 2020 12:00:00').getTime();
+        this.countDown = new Date('June 30, 2020 12:00:00').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
     }
@@ -1318,6 +1422,92 @@ QuickLinksComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/phoneData.ts":
+/*!******************************!*\
+  !*** ./src/app/phoneData.ts ***!
+  \******************************/
+/*! exports provided: phones */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "phones", function() { return phones; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+const phones = {
+    'phones': [
+        {
+            phoneName: 'iPhone 8+',
+            repairPrice: `Repair Price - US $${75.00}`,
+            oldRepairPrice: `Repair Price - US $${90.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972)',
+        },
+        {
+            phoneName: 'iPhone 8',
+            repairPrice: `Repair Price - US $${70.00}`,
+            oldRepairPrice: `Repair Price - US $${85.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544)',
+        },
+        {
+            phoneName: 'iPhone 7+',
+            repairPrice: `Repair Price - US $${75.00}`,
+            oldRepairPrice: `Repair Price - US $${90.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129)'
+        },
+        {
+            phoneName: 'iPhone 7',
+            repairPrice: `Repair Price - US $${70.00}`,
+            oldRepairPrice: `Repair Price - US $${85.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712)'
+        },
+        {
+            phoneName: 'iPhone 6s+',
+            repairPrice: `Repair Price - US $${65.00}`,
+            oldRepairPrice: `Repair Price - US $${80.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951)'
+        },
+        {
+            phoneName: 'iPhone 6s',
+            repairPrice: `Repair Price - US $${60.00}`,
+            oldRepairPrice: `Repair Price - US $${75.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682)'
+        },
+        {
+            phoneName: 'iPhone 6+',
+            repairPrice: `Repair Price - US $${65.00}`,
+            oldRepairPrice: `Repair Price - US $${80.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129)'
+        },
+        {
+            phoneName: 'iPhone 6',
+            repairPrice: `Repair Price - US $${55.00}`,
+            oldRepairPrice: `Repair Price - US $${70.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712)'
+        },
+        {
+            phoneName: 'iPhone SE',
+            repairPrice: `Repair Price - US $${50.00}`,
+            oldRepairPrice: `Repair Price - US $${65.00}`,
+            src: 'url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712.jpg)'
+        },
+        {
+            phoneName: 'iPhone X, XR, XS',
+            repairPrice: `Repair Price - US $${135.00}`,
+            oldRepairPrice: `Repair Price - US $${165.00}`,
+            src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-blue-select-201809?wid=441&hei=529&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1565209264208)',
+        },
+        {
+            phoneName: 'iPhone XS Max',
+            repairPrice: `Repair Price - US $${185.00}`,
+            oldRepairPrice: `Repair Price - US $${200.00}`,
+            src: 'url(https://img.gkbcdn.com/p/2019-11-22/apple-iphone-x-64gb-silver--used--20191122085356800._w500_.jpg)'
+        },
+    ]
+};
+
+
+/***/ }),
+
 /***/ "./src/app/services/book-now/book-now.component.css":
 /*!**********************************************************!*\
   !*** ./src/app/services/book-now/book-now.component.css ***!
@@ -1388,81 +1578,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CellPhonePatientsComponent", function() { return CellPhonePatientsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/animations */ "./node_modules/@angular/animations/fesm2015/animations.js");
+/* harmony import */ var _phoneData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../phoneData */ "./src/app/phoneData.ts");
+/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/animations */ "./node_modules/@angular/animations/fesm2015/animations.js");
+
 
 
 
 let CellPhonePatientsComponent = class CellPhonePatientsComponent {
     constructor() {
         this.title = 'Cell Phone Patients';
-        this.phones = [
-            {
-                phoneName: 'iPhone 8+',
-                repairPrice: `Repair Price - US $${75.00}`,
-                oldRepairPrice: `Repair Price - US $${90.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972)',
-            },
-            {
-                phoneName: 'iPhone 8',
-                repairPrice: `Repair Price - US $${70.00}`,
-                oldRepairPrice: `Repair Price - US $${85.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544)',
-            },
-            {
-                phoneName: 'iPhone 7+',
-                repairPrice: `Repair Price - US $${75.00}`,
-                oldRepairPrice: `Repair Price - US $${90.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129)'
-            },
-            {
-                phoneName: 'iPhone 7',
-                repairPrice: `Repair Price - US $${70.00}`,
-                oldRepairPrice: `Repair Price - US $${85.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712)'
-            },
-            {
-                phoneName: 'iPhone 6s+',
-                repairPrice: `Repair Price - US $${65.00}`,
-                oldRepairPrice: `Repair Price - US $${80.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951)'
-            },
-            {
-                phoneName: 'iPhone 6s',
-                repairPrice: `Repair Price - US $${60.00}`,
-                oldRepairPrice: `Repair Price - US $${75.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682)'
-            },
-            {
-                phoneName: 'iPhone 6+',
-                repairPrice: `Repair Price - US $${65.00}`,
-                oldRepairPrice: `Repair Price - US $${80.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129)'
-            },
-            {
-                phoneName: 'iPhone 6',
-                repairPrice: `Repair Price - US $${55.00}`,
-                oldRepairPrice: `Repair Price - US $${70.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712)'
-            },
-            {
-                phoneName: 'iPhone SE',
-                repairPrice: `Repair Price - US $${50.00}`,
-                oldRepairPrice: `Repair Price - US $${65.00}`,
-                src: 'url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712.jpg)'
-            },
-            {
-                phoneName: 'iPhone X, XR, XS',
-                repairPrice: `Repair Price - US $${135.00}`,
-                oldRepairPrice: `Repair Price - US $${165.00}`,
-                src: 'url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-blue-select-201809?wid=441&hei=529&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1565209264208)',
-            },
-            {
-                phoneName: 'iPhone XS Max',
-                repairPrice: `Repair Price - US $${185.00}`,
-                oldRepairPrice: `Repair Price - US $${200.00}`,
-                src: 'url(https://img.gkbcdn.com/p/2019-11-22/apple-iphone-x-64gb-silver--used--20191122085356800._w500_.jpg)'
-            },
-        ];
+        this.phones = _phoneData__WEBPACK_IMPORTED_MODULE_2__["phones"].phones;
     }
 };
 CellPhonePatientsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -1470,12 +1595,12 @@ CellPhonePatientsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         selector: 'cell-phone-patients',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./cell-phone-patients.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/services/cell-phone-patients/cell-phone-patients.component.html")).default,
         animations: [
-            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["trigger"])('fade', [
-                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["transition"])('void => *', [
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["style"])({
+            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["trigger"])('fade', [
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["transition"])('void => *', [
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["style"])({
                         letterSpacing: '10px', opacity: 1, color: 'red'
                     }),
-                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["animate"])(5000)
+                    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_3__["animate"])(5000)
                 ])
             ])
         ],
@@ -1540,7 +1665,7 @@ ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("mat-toolbar {\n    position: fixed;\n    }\n    \n    .mat-toolbar {\n      height: 6rem;\n      background: rgb(4, 116, 192);\n      background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n      background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    }\n    \n    img {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 17rem;\n      height: 8rem;\n    }\n    \n    .spacer {\n      -webkit-box-flex: 1;\n              flex: 1 1 auto;\n    }\n    \n    .links {\n       display: none;\n     }\n    \n    .menu {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n              flex-direction: column;\n      padding-top: 6rem;\n    }\n    \n    .menu a {\n      color: grey;\n      width: 100%;\n      margin: 0 10px;\n      line-height: 70px;\n      text-decoration: none;\n      border-bottom: 1px solid #EAEAEB;\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: center;\n              justify-content: center;\n    }\n    \n    @media only screen and (min-width: 600px) {\n      .links {\n        display: -webkit-box;\n        display: flex;\n      }\n    \n      .links a {\n        color: grey;\n        margin: 0 1rem;\n        line-height: 70px;\n        text-decoration: none;\n      }\n    \n      .menu, mat-icon {\n        display: none;\n      }\n    }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdG9vbGJhci90b29sYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2Y7O0lBRUE7TUFDRSxZQUFZO01BQ1osNEJBQTRCO01BQzVCLGdMQUFrSDtNQUFsSCxrSEFBa0g7SUFDcEg7O0lBRUE7TUFDRSxlQUFlO01BQ2YsTUFBTTtNQUNOLE9BQU87TUFDUCxZQUFZO01BQ1osWUFBWTtJQUNkOztJQUVBO01BQ0UsbUJBQWM7Y0FBZCxjQUFjO0lBQ2hCOztJQUVBO09BQ0csYUFBYTtLQUNmOztJQUVEO01BQ0Usb0JBQWE7TUFBYixhQUFhO01BQ2IsNEJBQXNCO01BQXRCLDZCQUFzQjtjQUF0QixzQkFBc0I7TUFDdEIsaUJBQWlCO0lBQ25COztJQUVBO01BQ0UsV0FBVztNQUNYLFdBQVc7TUFDWCxjQUFjO01BQ2QsaUJBQWlCO01BQ2pCLHFCQUFxQjtNQUNyQixnQ0FBZ0M7TUFDaEMsb0JBQWE7TUFBYixhQUFhO01BQ2Isd0JBQXVCO2NBQXZCLHVCQUF1QjtJQUN6Qjs7SUFFQTtNQUNFO1FBQ0Usb0JBQWE7UUFBYixhQUFhO01BQ2Y7O01BRUE7UUFDRSxXQUFXO1FBQ1gsY0FBYztRQUNkLGlCQUFpQjtRQUNqQixxQkFBcUI7TUFDdkI7O01BRUE7UUFDRSxhQUFhO01BQ2Y7SUFDRiIsImZpbGUiOiJzcmMvYXBwL3Rvb2xiYXIvdG9vbGJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LXRvb2xiYXIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB9XG4gICAgXG4gICAgLm1hdC10b29sYmFyIHtcbiAgICAgIGhlaWdodDogNnJlbTtcbiAgICAgIGJhY2tncm91bmQ6IHJnYig0LCAxMTYsIDE5Mik7XG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHJnYmEoNCwgMTE2LCAxOTIsIDEpIDMyJSwgcmdiYSgxNywgMTE4LCAxOTYsIDEpIDQzJSwgcmdiYSgyMzYsIDE5MiwgMzksIDEpIDY2JSk7XG4gICAgfVxuICAgIFxuICAgIGltZyB7XG4gICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICB0b3A6IDA7XG4gICAgICBsZWZ0OiAwO1xuICAgICAgd2lkdGg6IDE3cmVtO1xuICAgICAgaGVpZ2h0OiA4cmVtO1xuICAgIH1cbiAgICBcbiAgICAuc3BhY2VyIHtcbiAgICAgIGZsZXg6IDEgMSBhdXRvO1xuICAgIH1cbiAgICBcbiAgICAubGlua3Mge1xuICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgIH1cbiAgICBcbiAgICAubWVudSB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgIHBhZGRpbmctdG9wOiA2cmVtO1xuICAgIH1cbiAgICBcbiAgICAubWVudSBhIHtcbiAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBtYXJnaW46IDAgMTBweDtcbiAgICAgIGxpbmUtaGVpZ2h0OiA3MHB4O1xuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFQUVBRUI7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgfVxuICAgIFxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAwcHgpIHtcbiAgICAgIC5saW5rcyB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICB9XG4gICAgXG4gICAgICAubGlua3MgYSB7XG4gICAgICAgIGNvbG9yOiBncmV5O1xuICAgICAgICBtYXJnaW46IDAgMXJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDcwcHg7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cbiAgICBcbiAgICAgIC5tZW51LCBtYXQtaWNvbiB7XG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICB9XG4gICAgfVxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("mat-toolbar {\n    position: fixed;\n    }\n    \n    .mat-toolbar {\n      height: 6rem;\n      background: rgb(4, 116, 192);\n      background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(4, 116, 192, 1)), color-stop(43%, rgba(17, 118, 196, 1)), color-stop(66%, rgba(236, 192, 39, 1)));\n      background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);\n    }\n    \n    img {\n      position: fixed;\n      width: 14rem;\n      height: 11rem;\n    }\n    \n    .spacer {\n      -webkit-box-flex: 1;\n              flex: 1 1 auto;\n    }\n    \n    .links {\n       display: none;\n     }\n    \n    .menu {\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n              flex-direction: column;\n      padding-top: 6rem;\n    }\n    \n    .menu a {\n      color: grey;\n      width: 100%;\n      margin: 0 10px;\n      line-height: 70px;\n      text-decoration: none;\n      border-bottom: 1px solid #EAEAEB;\n      display: -webkit-box;\n      display: flex;\n      -webkit-box-pack: center;\n              justify-content: center;\n    }\n    \n    @media only screen and (min-width: 600px) {\n      .links {\n        display: -webkit-box;\n        display: flex;\n      }\n    \n      .links a {\n        color: grey;\n        margin: 0 1rem;\n        line-height: 70px;\n        text-decoration: none;\n      }\n    \n      .menu, mat-icon {\n        display: none;\n      }\n    }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdG9vbGJhci90b29sYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2Y7O0lBRUE7TUFDRSxZQUFZO01BQ1osNEJBQTRCO01BQzVCLGdMQUFrSDtNQUFsSCxrSEFBa0g7SUFDcEg7O0lBRUE7TUFDRSxlQUFlO01BQ2YsWUFBWTtNQUNaLGFBQWE7SUFDZjs7SUFFQTtNQUNFLG1CQUFjO2NBQWQsY0FBYztJQUNoQjs7SUFFQTtPQUNHLGFBQWE7S0FDZjs7SUFFRDtNQUNFLG9CQUFhO01BQWIsYUFBYTtNQUNiLDRCQUFzQjtNQUF0Qiw2QkFBc0I7Y0FBdEIsc0JBQXNCO01BQ3RCLGlCQUFpQjtJQUNuQjs7SUFFQTtNQUNFLFdBQVc7TUFDWCxXQUFXO01BQ1gsY0FBYztNQUNkLGlCQUFpQjtNQUNqQixxQkFBcUI7TUFDckIsZ0NBQWdDO01BQ2hDLG9CQUFhO01BQWIsYUFBYTtNQUNiLHdCQUF1QjtjQUF2Qix1QkFBdUI7SUFDekI7O0lBRUE7TUFDRTtRQUNFLG9CQUFhO1FBQWIsYUFBYTtNQUNmOztNQUVBO1FBQ0UsV0FBVztRQUNYLGNBQWM7UUFDZCxpQkFBaUI7UUFDakIscUJBQXFCO01BQ3ZCOztNQUVBO1FBQ0UsYUFBYTtNQUNmO0lBQ0YiLCJmaWxlIjoic3JjL2FwcC90b29sYmFyL3Rvb2xiYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIm1hdC10b29sYmFyIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgfVxuICAgIFxuICAgIC5tYXQtdG9vbGJhciB7XG4gICAgICBoZWlnaHQ6IDZyZW07XG4gICAgICBiYWNrZ3JvdW5kOiByZ2IoNCwgMTE2LCAxOTIpO1xuICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDkwZGVnLCByZ2JhKDQsIDExNiwgMTkyLCAxKSAzMiUsIHJnYmEoMTcsIDExOCwgMTk2LCAxKSA0MyUsIHJnYmEoMjM2LCAxOTIsIDM5LCAxKSA2NiUpO1xuICAgIH1cbiAgICBcbiAgICBpbWcge1xuICAgICAgcG9zaXRpb246IGZpeGVkO1xuICAgICAgd2lkdGg6IDE0cmVtO1xuICAgICAgaGVpZ2h0OiAxMXJlbTtcbiAgICB9XG4gICAgXG4gICAgLnNwYWNlciB7XG4gICAgICBmbGV4OiAxIDEgYXV0bztcbiAgICB9XG4gICAgXG4gICAgLmxpbmtzIHtcbiAgICAgICBkaXNwbGF5OiBub25lO1xuICAgICB9XG4gICAgXG4gICAgLm1lbnUge1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICBwYWRkaW5nLXRvcDogNnJlbTtcbiAgICB9XG4gICAgXG4gICAgLm1lbnUgYSB7XG4gICAgICBjb2xvcjogZ3JleTtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgbWFyZ2luOiAwIDEwcHg7XG4gICAgICBsaW5lLWhlaWdodDogNzBweDtcbiAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjRUFFQUVCO1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIH1cbiAgICBcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDYwMHB4KSB7XG4gICAgICAubGlua3Mge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgfVxuICAgIFxuICAgICAgLmxpbmtzIGEge1xuICAgICAgICBjb2xvcjogZ3JleTtcbiAgICAgICAgbWFyZ2luOiAwIDFyZW07XG4gICAgICAgIGxpbmUtaGVpZ2h0OiA3MHB4O1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICB9XG4gICAgXG4gICAgICAubWVudSwgbWF0LWljb24ge1xuICAgICAgICBkaXNwbGF5OiBub25lO1xuICAgICAgfVxuICAgIH1cbiJdfQ== */");
 
 /***/ }),
 

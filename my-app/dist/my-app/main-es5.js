@@ -291,7 +291,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/flyer.jpg\">\n</div>";
+    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/juneflyer.jpg\">\n</div>";
     /***/
   },
 

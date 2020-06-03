@@ -188,7 +188,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/flyer.jpg\">\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/juneflyer.jpg\">\n</div>");
 
 /***/ }),
 

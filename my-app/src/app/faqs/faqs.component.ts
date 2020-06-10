@@ -44,10 +44,6 @@ export class FAQsComponent {
       {
         question: 'Does Doctor iOS sell parts or tools?',
         answer: 'Doctor iOS does not sell parts or tools seperately from services.'
-      },
-      {
-        question: 'I dropped my phone and it has become unresponsive to touch, does the LCD and Glass repair fix this issue?',
-        answer: 'Yes, in most cases all your phone needs is a new LCD and glass replacement.'
       }
 
 

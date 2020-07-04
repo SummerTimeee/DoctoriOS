@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CellPhoneImageComponent implements OnInit {
 
-  title: string = 'St.Louis Phone Repair';
+  title: string = 'iPhone Repair Specialists';
   selectedImageIndex = 0;
 
   ngOnInit() {

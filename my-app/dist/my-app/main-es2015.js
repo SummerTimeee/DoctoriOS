@@ -188,11 +188,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-<<<<<<< HEAD
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/flyer.jpg\">\n</div>");
-=======
 /* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/lastChristmasDeals.png\">\n</div>");
->>>>>>> develop
 
 /***/ }),
 
@@ -1245,11 +1241,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let CountdownTimerComponent = class CountdownTimerComponent {
     constructor() {
-<<<<<<< HEAD
-        this.countDown = new Date('Dec 13, 2020 12:00:00').getTime();
-=======
         this.countDown = new Date('Dec 31, 2020 12:00:00').getTime();
->>>>>>> develop
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
     }

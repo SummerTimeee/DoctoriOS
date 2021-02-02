@@ -291,7 +291,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/lastChristmasDeals.png\">\n</div>";
+    __webpack_exports__["default"] = "<div>\n    <h2 @fade>{{title}}</h2>\n    <img src=\"../../../assets/images/flyer.jpg\">\n</div>";
     /***/
   },
 
@@ -2172,7 +2172,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function CountdownTimerComponent() {
         _classCallCheck(this, CountdownTimerComponent);
 
-        this.countDown = new Date('Dec 31, 2020 12:00:00').getTime();
+        this.countDown = new Date('Jan 31, 2021 12:00:00').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
       }

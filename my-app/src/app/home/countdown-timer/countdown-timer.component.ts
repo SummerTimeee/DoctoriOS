@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CountdownTimerComponent implements OnInit {
 
-  countDown = new Date('Feb 14, 2020 12:00:00').getTime();
+  countDown = new Date('Feb 14, 2021 12:00:00').getTime();
 
 
   timer = '';

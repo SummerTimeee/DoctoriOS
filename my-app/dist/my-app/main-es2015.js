@@ -1247,7 +1247,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let CountdownTimerComponent = class CountdownTimerComponent {
     constructor() {
-        this.countDown = new Date('Feb 14, 2021 12:00:00').getTime();
+        this.countDown = new Date('Feb 28, 2021 12:00:00').getTime();
         this.timer = '';
         this.title = 'Hurry! Sale Ends:';
     }
